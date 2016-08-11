@@ -15,6 +15,7 @@ For help installing R, see last bullet.
  Enter title "R Markdown". Leave as default HTML. Click Ok.  
  Within one of the screens in your R Studio, there is a knitting needle icon. Press the “Knit HTML” button (found near top) to make sure it works.  
  After a few moments a window entitled R Markdown will appear. This means it is working. Close this window.  
+
 ---
 
 1.3) Install Shiny within R Studio
@@ -26,17 +27,18 @@ For help installing R, see last bullet.
  If prompted to install packages, click yes.  
  Within one of the screens in your R Studio, there is now a Run Document icon. Press the “Run Document” (found near top) to make sure it works.  
  After a few moments a window entitled Shiny will appear. This means it is working. Close this window.  
+
 ---
 
 2) Install the BioConductor core packages. To do this, open R and type at the > prompt, then wait for the prompt to reappear and type second command:
 
- source("http://bioconductor.org/biocLite.R"); 
+ source("http://bioconductor.org/biocLite.R");  
  biocLite(); 
 
 3) Install some workshop specific packages. Again, type at the > prompt, then wait for the prompt to reappear before typing the next command.
- biocLite("aCGH"); 
- source("http://aroma-project.org/hbLite.R"); 
- hbInstall("aroma.affymetrix"); 
+ biocLite("aCGH");  
+ source("http://aroma-project.org/hbLite.R");  
+ hbInstall("aroma.affymetrix");  
 
 You will need to restart R after this package. Save your workspace and restart R.<br>
 To check if the packages have been installed properly, you can check under the 'Packages&Data' tab in the header (I am on a MAC so wording and location may be different on a PC). Within the 'Package Manager' section, all of the above packages should be listed. During class to use these packages, you will have to load them.
@@ -46,31 +48,35 @@ Alternatively to check which packages have been installed you can use the follow
 
 4) Install even more packages in R. Again at the > prompt type the following commands. Wait for the prompt to return between commands, as some commands may take a while to execute:
 
- install.packages("ggplot2"); 
- install.packages("gplots");
- install.packages("dplyr");
- install.packages("plyr");
- install.packages("data.table");
- install.packages("reshape2");
- install.packages("stringr");
+```
+ install.packages("ggplot2");  
+ install.packages("gplots");  
+ install.packages("dplyr");  
+ install.packages("plyr");  
+ install.packages("data.table");  
+ install.packages("reshape2");  
+ install.packages("stringr");  
 
- source("http://bioconductor.org/biocLite.R");
- biocLite("ggbio"); 
- biocLite("GenomicRanges");
- biocLite("GenomicAlignments");
- biocLite("biovizBase");
- biocLite("Gviz");
- biocLite("Homo.sapiens");
- biocLite("VariantAnnotation");
- biocLite("grid");
- biocLite("biomaRt");
+ source("http://bioconductor.org/biocLite.R");  
+ biocLite("ggbio");  
+ biocLite("GenomicRanges");  
+ biocLite("GenomicAlignments");  
+ biocLite("biovizBase");  
+ biocLite("Gviz");  
+ biocLite("Homo.sapiens");  
+ biocLite("VariantAnnotation");  
+ biocLite("grid");  
+ biocLite("biomaRt"); 
+```
 
 7) Install the BioConductor core packages. To do this, open R and type at the > prompt, then wait for the prompt to reappear and type second command: 
 
- source("http://bioconductor.org/biocLite.R");  
- biocLite();  
+```
+ source("http://bioconductor.org/biocLite.R");    
+ biocLite();   
  biocLite("affy");  
  require(affy);  
+```
 
 NOTE: The execution of this last command should not be an error, and should start with the following line of text: <br>
 Loading required package: affy 
@@ -95,11 +101,14 @@ B) Let R upload the file by executing the following command in R which will open
 8.1) To test whether you have installed this package correctly, execute the following R command: 
  require(hgu95av2hsentrezgcdf); 
 
-NOTE: If you have installed hgu95av2hsentrezgcdf package properly, the output from this command should not be an error and should start with the following lines of text: <br>
-Loading required package: hgu95av2hsentrezgcdf 
-Loading required package: AnnotationDbi 
-Loading required package: BiocGenerics 
-Loading required package: parallel 
+NOTE: If you have installed hgu95av2hsentrezgcdf package properly, the output from this command should not be an error and should start with the following lines of text:
+
+```
+Loading required package: hgu95av2hsentrezgcdf  
+Loading required package: AnnotationDbi  
+Loading required package: BiocGenerics  
+Loading required package: parallel  
+```
 
 9) A robust text editor. For Windows/PC - notepad++ (http://notepad-plus-plus.org/). For Linux - gEdit (http://projects.gnome.org/gedit/). For Mac – TextWrangler (http://www.barebones.com/products/textwrangler/download.html)
 
@@ -121,27 +130,27 @@ Loading required package: parallel
 From the menu bar, Apps >  Manage Apps <br>
 
 Within all apps, Search for the following and install:
- jActiveModules (should already be installed. Install if not)
- GeneMania (should already be installed. Install if not).
- EnrichmentMap
- BiNGO
- Reactome FI Plugin 
+ jActiveModules (should already be installed. Install if not)  
+ GeneMania (should already be installed. Install if not).  
+ EnrichmentMap  
+ BiNGO  
+ Reactome FI Plugin   
 
 Select GeneMania from Apps Manager → Choose Another Data Set. <br>
 From the list of available data sets, select the most recent (2014-08-12/1 June 2014) and under Include only these networks: select All → Download.  
 
-An Install Window will pop-up. Select H.Sapiens Human (2384 MB) → Install<br>
-This requires time and a good network connection to download completely, so be patient.<br>
+An Install Window will pop-up. Select H.Sapiens Human (2384 MB) → Install  
+This requires time and a good network connection to download completely, so be patient.  
 
 18) A PDF viewer (Adobe Acrobat or equivalent).
 
 19) fastqc which is available for Windows/Mac/Linux here: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/ 
 
-20) Sign up for a GenePattern account at Broad 
-http://www.broadinstitute.org/cancer/software/genepattern/ <br> 
-When you go to this homepage, there is under the "Getting Started" section an icon for "Run analyses on the Broad public server".<br>
-Click here and sign up for an account so that in class we can use the tool on the web.<br>
+20) Sign up for a GenePattern account at Broad  
+http://www.broadinstitute.org/cancer/software/genepattern/   
+When you go to this homepage, there is under the "Getting Started" section an icon for "Run analyses on the Broad public server".  
+Click here and sign up for an account so that in class we can use the tool on the web.  
 
-21) For help installing R, you may find the following directions helpful resources:<br>
+21) For help installing R, you may find the following directions helpful resources:  
 Tutorial on how to install R on windows only look at the "getting started" section: http://www.biostat.wisc.edu/~kbroman/Rintro/Rwin.html  
 and MACS only look at the "getting started" section: http://www.biostat.wisc.edu/~kbroman/Rintro/Rmac.html
