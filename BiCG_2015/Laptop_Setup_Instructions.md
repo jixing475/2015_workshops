@@ -2,20 +2,21 @@
 
 <b>Programs to Install</b>
 
-1) Install the most recent version of R for your operating system by following the links from http://www.r-project.org/   For help installing R, see last bullet.
-<br>
+1) Install the most recent version of R for your operating system by following the links from http://www.r-project.org/   
+For help installing R, see last bullet.
 
 1.1) Download and install the most recent version of R Studio desktop from http://www.rstudio.com/  
-<br>
 
 1.2) Install R Markdown within R Studio
 
- File -> New File -> R Markdown. If prompted to install packages, click yes. 
- Select Document on the left menu within the window which pops up.
- Enter title "R Markdown". Leave as default HTML. Click Ok. 
- Within one of the screens in your R Studio, there is a knitting needle icon. Press the “Knit HTML” button (found near top) to make sure it works. 
- After a few moments a window entitled R Markdown will appear = it is working. Close this window.
-<br>
+---
+ File -> New File -> R Markdown. If prompted to install packages, click yes.  
+ Select Document on the left menu within the window which pops up.  
+ Enter title "R Markdown". Leave as default HTML. Click Ok.  
+ Within one of the screens in your R Studio, there is a knitting needle icon. Press the “Knit HTML” button (found near top) to make sure it works.  
+ After a few moments a window entitled R Markdown will appear = it is working. Close this window.  
+---
+
 1.3) Install Shiny within R Studio
 
  File -> New File -> R Markdown. 
