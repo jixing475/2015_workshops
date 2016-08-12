@@ -1,0 +1,66 @@
+# This file contains installation instructions for the programs used in Module 4.
+# It assumes that you are running on linux
+# The following commands will download and compile the software within your current working directory
+# If you want to run the programs by just typing 'bwa' or 'samtools' you will need to add
+# the directories created below to your $PATH environment variable
+
+#
+# samtools
+#
+wget https://github.com/samtools/samtools/archive/master.zip
+unzip master.zip
+rm master.zip
+cd samtools-master
+make
+./samtools
+cd ..
+
+#
+# bwa
+# 
+wget https://github.com/lh3/bwa/archive/master.zip
+unzip master.zip
+rm master.zip
+cd bwa-master
+make
+./bwa
+cd ..
+   
+#
+# picard
+#
+wget http://downloads.sourceforge.net/project/picard/picard-tools/1.92/picard-tools-1.92.zip
+unzip picard-tools-1.92.zip
+rm picard-tools-1.92.zip
+cd picard-tools-1.92
+java -jar SortSam.jar
+cd ..
+
+#
+# hydra 
+# 
+wget https://hydra-sv.googlecode.com/files/Hydra.v0.5.3.tar.gz
+tar -xzf Hydra.v0.5.3.tar.gz
+rm Hydra.v0.5.3.tar.gz
+cd Hydra-Version-0.5.3
+make clean
+make
+bin/hydra
+cd ..
+
+#
+# Download the human reference genome. 
+# We will download the version used by the 1000 Genomes Project.
+# It is build 37 of the reference and contains extra sequences to help
+# avoid false positive variant calls by misalignments to the reference
+#
+# The `bwa index` command will build an index file so you can run bwa against the reference
+# It will take a few hours to run so I do not recommend running it on your cloud instance
+# during the workshop
+
+mkdir genome
+cd genome
+wget ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/technical/reference/human_g1k_v37.fasta.gz
+gunzip human_g1k_v37.fasta.gz
+#../bwa-master/bwa index human_g1k_v37.fasta
+cd ..
