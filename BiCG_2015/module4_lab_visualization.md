@@ -10,7 +10,7 @@ image: CBW_cancerDNA_icon-16.jpg
 Gene fusion visualization
 =========================
 
-![](txt.gif "fig:txt.gif") [genefusions.Rmd](Media:Genefusions.Rmd "wikilink")
+[genefusions.Rmd](https://raw.githubusercontent.com/bioinformatics-ca/2015_workshops/master/BiCG_2015/genefusions.Rmd)
 
 Installation
 ------------
