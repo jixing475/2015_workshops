@@ -119,11 +119,15 @@ To view the alignments supporting the fusion in IGV, click File-&gt;Open URL and
 
 [`http://cbwmain.dyndns.info/Module4/HCC1395/rnaseq/genes/HCC1395_PLA2R1.bam`](http://cbwmain.dyndns.info/Module4/HCC1395/rnaseq/genes/HCC1395_PLA2R1.bam)
 
+Note that this link will only work in class.
+
 Then zoom to `chr2:160,832,138-160,833,113`.
 
 You can also add the following URL for RBMS1.
 
 [`http://cbwmain.dyndns.info/Module4/HCC1395/rnaseq/genes/HCC1395_RBMS1.bam`](http://cbwmain.dyndns.info/Module4/HCC1395/rnaseq/genes/HCC1395_RBMS1.bam)
+
+Note that this link will only work in class.
 
 Then zoom to `chr2:161,159,715-161,160,281`.
 
