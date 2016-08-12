@@ -228,7 +228,7 @@ We can plot the fusion exons in `Gviz` by creating a gene region track using the
 
     plotTracks(list(fusionTrack))
 
-![caption fusion exons](module4_visualization_fusion_exons-1.png "caption fusion exons")
+![caption fusion exons](https://github.com/bioinformatics-ca/2015_workshops/blob/master/BiCG_2015/Module4_visualization_fusion_exons-1.png?raw=true)
 
 The plot shows the exons of the fusion, though in isolation the exons are not very interesting. Add an ideogram with `IdeogramTrack`, genomic location using `GenomeAxisTrack`, and ensembl gene models using `BiomartGeneRegionTrack`.
 
@@ -245,7 +245,7 @@ The plot shows the exons of the fusion, though in isolation the exons are not ve
 
     plotTracks(list(itrack, gtrack, biomTrack, fusionTrack), from = plot.start, to = plot.end)
 
-![caption fusion exons with annotations](module4_visualization_fusion_exons_with_annot-1.png "caption fusion exons with annotations")
+![caption fusion exons with annotations](https://github.com/bioinformatics-ca/2015_workshops/blob/master/BiCG_2015/Module4_visualization_fusion_exons_with_annot-1.png?raw=true)
 
 It is also possible to plot read alignments and coverage directly from a bam file using the AlignmentsTrack. The bam file should ideally have ucsc chromosome names to have the optimal compatibility with `GViz`. Set the `sizes` argument so that the alignments track doesnt take over the entire plot.
 
@@ -265,7 +265,7 @@ It is also possible to plot read alignments and coverage directly from a bam fil
       chromosome = chromosome1, from = plot.start, to = plot.end, 
       sizes = c(0.5, 0.5, 1, 3, 0.5))
 
-![caption fusion exons with annotations and alignments](module4_visualization_exons_anno_align-1.png "caption fusion exons with annotations and alignments")
+![caption fusion exons with annotations and alignments](https://github.com/bioinformatics-ca/2015_workshops/blob/master/BiCG_2015/Module4_visualization_exons_anno_align-1.png?raw=true)
 
 Try other *types* of alignment plotting, by setting the `type` argument to "coverage", "sashimi" or "pileup". For sashimi plots, use `type` `=` `c("sashimi",` `"coverage")`.
 
@@ -288,7 +288,7 @@ Plot the highlight track and gene model and ideogram tracks.
       chromosome = chromosome1, from = plot.start, to = plot.end,
       sizes = c(0.5, 0.5, 1, 3, 0.5))
 
-![caption fusion exons with annotations and alignments, with fusion end highlighted](module4_visualization_exons_anno_align_end-1.png "caption fusion exons with annotations and alignments, with fusion end highlighted")
+![caption fusion exons with annotations and alignments, with fusion end highlighted](https://github.com/bioinformatics-ca/2015_workshops/blob/master/BiCG_2015/Module4_visualization_exons_anno_align_end-1.png?raw=true)
 
 Plotting the fusion break end in the context of the gene models will now give us an idea for which intron of the gene harbours the associated genomic rearrangement breakpoint.
 
@@ -343,7 +343,7 @@ Plotting the fusion break end in the context of the gene models will now give us
       from = plot.start, to = plot.end,
       sizes = c(0.5, 0.5, 1, 3, 0.5))
 
-![caption fusion exons with annotations and alignments, with fusion end highlighted](module4_visualization_exons_anno_align_end_2-1.png "caption fusion exons with annotations and alignments, with fusion end highlighted")
+![caption fusion exons with annotations and alignments, with fusion end highlighted](https://github.com/bioinformatics-ca/2015_workshops/blob/master/BiCG_2015/Module4_visualization_exons_anno_align_end_2-1.png?raw=true)
 
 Plot a *circos* of all fusions using ggbio
 ------------------------------------------
@@ -410,7 +410,7 @@ Using the `GRanges` representation of the chromosome lengths, we can draw a basi
       circle(genome.ranges, geom = "ideo", fill = "gray70")
     p
 
-![caption circos of chromosomes](module4_visualization_circos_chrom-1.png "caption circos of chromosomes")
+![caption circos of chromosomes](https://github.com/bioinformatics-ca/2015_workshops/blob/master/BiCG_2015/Module4_visualization_circos_chrom-1.png?raw=true)
 
 Additional tracks are added using the `+` operator. Add a scale and chromosome name.
 
@@ -420,7 +420,7 @@ Additional tracks are added using the `+` operator. Add a scale and chromosome n
       circle(genome.ranges, geom = "text", aes(label = seqnames), vjust = -1, size = 4)
     p
 
-![caption circos of chromosomes with scales and names](module4_visualization_circos_chrom_anno-1.png "caption circos of chromosomes with scales and names")
+![caption circos of chromosomes with scales and names](https://github.com/bioinformatics-ca/2015_workshops/blob/master/BiCG_2015/Module4_visualization_circos_chrom_anno-1.png?raw=true)
 
 We are now ready the plot arcs within and between chromosomes representing fusions between genes.
 
@@ -466,7 +466,7 @@ Add the rearrangements to the plot using the `link` geom argument.
       circle(genome.ranges, geom = "text", aes(label = seqnames), vjust = -1, size = 4)
     p
 
-![caption circos of chromosomes with scales and names and fusion links](module4_visualization_circos_chrom_anno_links-1.png "caption circos of chromosomes with scales and names and fusion links")
+![caption circos of chromosomes with scales and names and fusion links](https://github.com/bioinformatics-ca/2015_workshops/blob/master/BiCG_2015/Module4_visualization_circos_chrom_anno_links-1.png?raw=true)
 
 We can color the links by any of the fusion attributes in the table.
 
@@ -522,4 +522,4 @@ Use `aes` to color the fusions by whether or not they preserve the open reading 
       circle(genome.ranges, geom = "text", aes(label = seqnames), vjust = -1, size = 4)
     p
 
-![caption circos of chromosomes with scales and names and fusion links colored by open reading frame](module4_visualization_circos_chrom_anno_links_orf-1.png "caption circos of chromosomes with scales and names and fusion links colored by open reading frame")
+![caption circos of chromosomes with scales and names and fusion links colored by open reading frame](https://github.com/bioinformatics-ca/2015_workshops/blob/master/BiCG_2015/Module4_visualization_circos_chrom_anno_links_orf-1.png?raw=true)
