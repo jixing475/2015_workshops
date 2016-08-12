@@ -1,0 +1,125 @@
+Module 3 -- Mapping and Genome Rearrangement
+
+LAB #1
+
+OBJECTIVE:
+
+Map FASTQ files to the human reference genome and explore the tools available for working with alignments.
+
+TOOLS USED:
+
+We will be using:
+* bwa (read mapper)
+* samtools (utilities to view/modify alignment files)
+* Picard  (utilities to view/modify alignment files)
+* IGV (genome browser)
+
+Instructions:
+
+In the following exercise, lines starting with a # symbol are comments.
+The lines without # symbols are the commands that you should run in the terminal.
+
+###################
+# Start of Exercise
+###################
+
+#
+# Step 0. Create a directory to store your working data
+# Run the following commands by copying and pasting or typing them into the terminal:
+#
+
+cd ~/workspace
+mkdir module3
+cd module3
+
+#
+# Step 1. Map reads to the reference genome using bwa
+# 
+
+# bwa mem is the latest mapping algorithm in the bwa software package
+# You can read about how it works here: http://arxiv.org/abs/1303.3997
+# This command may take a few minutes to run
+
+bwa mem -t 4 ~/CourseData/CG_data/Module3/human_g1k_v37.fasta ~/CourseData/CG_data/Module3/reads_1.fastq ~/CourseData/CG_data/Module3/reads_2.fastq > sample.sam
+
+# If this command is taking a long time, you can just copy the results to your working directory
+# to proceed with the step 2 of the exercise:
+
+cp ~/CourseData/CG_data/Module3/sample.sam .
+
+#
+# Step 2. Explore the alignment data
+#
+
+# SAM is a plain-text format that can be viewed from the command line
+# Use the head command to look at your alignments.
+# You will see the SAM header containing the reference information
+# followed by a few alignments.
+
+head -100 sample.sam
+
+# In this SAM file, the reads are ordered by their position in the original FASTQ file.
+# We usually want to order the alignments by their position on the reference genome.
+# We will use Picard's SortSam tool to do this. The output will be in BAM format
+# which takes up much less disk space than SAM.
+
+java -jar /usr/local/picard/picard.jar SortSam I=sample.sam O=sample.sorted.bam SO=coordinate CREATE_INDEX=true
+
+# The samtools view command can be used to convert BAM to SAM (and vice-versa)
+
+samtools view sample.sorted.bam | head -100
+
+# 'samtools view' can also extract the alignments for regions of the genome
+# this command will give you all the alignments for a 10kb region of chromosome 20
+
+samtools view sample.sorted.bam 20:26,000,000-26,010,000
+
+# As a tab-delimited file, the SAM format is easy to manipulate with common
+# unix tools like grep, awk, cut, sort. For example, this command
+# uses cut to extract just the reference coordinates from the alignments
+
+samtools view sample.sorted.bam 20:26,000,000-26,010,000 | cut -f3-4
+
+# We can samtools flagstat command to get a summary of the alignments
+
+samtools flagstat sample.sorted.bam
+
+# We can use 'samtools idxstats' to count the number of reads mapped to each chromosome
+
+samtools idxstats sample.sorted.bam
+
+# This command will count the number of reads on chromosome 20
+
+samtools idxstats sample.sorted.bam | awk '$1 == "20"'
+
+#
+# Step 3. Examining alignments
+#
+
+# You can view all of the aligned reads for a particular reference base using mpileup.
+# The following command will show the read bases and their quality scores at a heterozygous SNP.
+# The "." and "," symbols indicate bases that match the reference. 
+# There are 18 reads that show a "G" base at this position. 
+# The individual's genotype at this position is likely A/G.
+
+samtools mpileup -f ~/CourseData/CG_data/Module3/human_g1k_v37.fasta -r 20:32,001,292-32,001,292 sample.sorted.bam
+
+# Load the data into IGV by performing the following:
+#   Open IGV and change the genome from hg19 to 'human_g1k_v37'
+#   Choose 'Load from URL' from the file menu
+#   Type: http://cbw#.entrydns.org/module3/sample.sorted.bam where # is your student ID
+#   Navigate to 20:32,001,292
+# Notice that the alignments have high mapping quality.
+
+# Now we will view the alignments for a different position:
+
+samtools mpileup -f ~/CourseData/CG_data/Module3/human_g1k_v37.fasta -r 20:25,997,273-25,997,273 sample.sorted.bam
+
+# In this case, 11 reads show a T base at this position.
+# Look at the alignments in IGV by navigating to 20:25,997,273. 
+# The reads colored white have mapping quality 0.
+# This means the alignment is ambiguous and should not be trusted.
+# It is unclear whether the T->C alignments are true SNPs.
+
+# This is the end of lab 1. You can use the remaining time to explore the alignments
+# and ask questions if you notice anything unusual or interesting.
