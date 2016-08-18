@@ -2,7 +2,7 @@
 layout: post2
 permalink: /high_throughput_biology_2015/
 title: High-Throughput Biology 2015 Student Page
-header1: High-Throughput Biology: From Sequence to Networks 2015
+header1: High-Throughput Biology - From Sequence to Networks 2015
 header2: Workshop pages for students
 image: CBW_cancerDNA_icon-16.jpg
 ---
