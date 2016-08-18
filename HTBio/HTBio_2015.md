@@ -7,6 +7,7 @@ header2: Workshop pages for students
 image: CBW_cancerDNA_icon-16.jpg
 ---
 
+
 Video from 1st Bioinformatics Workshop
 --------------------------------------
 
