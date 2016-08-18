@@ -15,64 +15,66 @@ Video from 1st Bioinformatics Workshop
 Laptop Setup Instructions
 -------------------------
 
-Instructions for setting up your laptop can be found here: [Laptop Setup Instructions\_HT-Biology](Laptop_Setup_Instructions_HT-Biology "wikilink")
+Instructions for setting up your laptop can be found here: [Laptop Setup Instructions\_HT-Biology](https://github.com/bioinformatics-ca/2015_workshops/blob/master/HTBio/Laptop_setup.md)
 
 Pre-Workshop Tutorials
 ----------------------
 
 1) <b>R Preparation tutorials:</b> You are expected to have completed the following tutorials in R beforehand. The tutorial should be very accessible even if you have never used R before.
 
--   The [CBW **R** tutorial](R_tutorial "wikilink") or Quick and Dirty Guide to R (up to and including Descriptive Statistics) at <http://ww2.coastal.edu/kingw/statistics/R-tutorials/text/quick&dirty_R_revised_080715.txt>
--   The [R command cheat sheet](Media:Short-refcard.pdf "wikilink")
+* The [CBW R tutorial](http://bioinformatics-ca.github.io/CBW_R_Tutorial/) or [R Tutorial](http://www.cyclismo.org/tutorial/R/) 
+* The [R command cheat sheet](../../resources/R_Short-refcard.pdf)
+* [R Plotting Reference](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/blob/master/resources/Plotting.Reference.ipynb)
 
-2) <b>UNIX Preparation tutorials:</b> Please complete tutorials \#1-3 on UNIX at <http://www.ee.surrey.ac.uk/Teaching/Unix/>
-
--   [Unix Cheat sheet](http://www.rain.org/~mkummel/unix.html)
-
-3) <b>Cytoscape Preparation tutorials:</b> Complete the introductory tutorial to Cytoscape: <http://opentutorials.cgl.ucsf.edu/index.php/Portal:Cytoscape3>
+2) <b>Cytoscape 3.x Preparation tutorials:</b> Complete the introductory tutorial to Cytoscape 3.x: <http://opentutorials.cgl.ucsf.edu/index.php/Portal:Cytoscape3>
 
 -   Introduction to Cytoscape3 - User Interface
 -   Introduction to Cytoscape3 - Welcome Screen
--   Filtering and Editing in Cytoscape 3
+-   Introduction to Cytoscape 3.1 - Networks, Data, Styles, Layouts and App Manager
+
+3) <b>UNIX Preparation tutorials:</b> Please complete tutorials \#1-3 on UNIX at <http://www.ee.surrey.ac.uk/Teaching/Unix/>
+
+-   [Unix Cheat sheet](http://www.rain.org/~mkummel/unix.html)
 
 <hr>
 Pre-Workshop Readings
 ---------------------
 
-Using cloud computing infrastructure with CloudBioLinux, CloudMan, and Galaxy [PMID22700313.pdf](Media:PMID22700313.pdf "wikilink")
+[Using cloud computing infrastructure with CloudBioLinux, CloudMan, and Galaxy](http://www.ncbi.nlm.nih.gov/pubmed/22700313)
 
-Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration [PMID22517427.pdf](Media:PMID22517427.pdf "wikilink")
+[Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration](http://www.ncbi.nlm.nih.gov/pubmed/22517427)
 
-Savant Genome Browser 2: visualization and analysis for population-scale genomics [PMC3394255.pdf](Media:PMC3394255.pdf "wikilink")
+[Savant Genome Browser 2: visualization and analysis for population-scale genomics](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3394255/)
 
-Genome structural variation discovery and genotyping [PMID21358748.pdf](Media:PMID21358748.pdf "wikilink")
+[Genome structural variation discovery and genotyping](http://www.ncbi.nlm.nih.gov/pubmed/21358748)
 
-A survey of sequence alignment algorithms for next-generation sequencing [PMC2943993.pdf](Media:PMC2943993.pdf "wikilink")
+[A survey of sequence alignment algorithms for next-generation sequencing](http://www.ncbi.nlm.nih.gov/pubmed/20460430)
 
-Genotype and SNP calling from next-generation sequencing data [PMC3593722.pdf](Media:PMC3593722.pdf "wikilink")
+[Genotype and SNP calling from next-generation sequencing data](http://www.ncbi.nlm.nih.gov/pubmed/21587300)
 
-Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks [PMC3334321.pdf](Media:PMC3334321.pdf "wikilink")
+[Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks](http://www.ncbi.nlm.nih.gov/pubmed/22383036)
 
-ENCODE RNA-seq Standards [ENCODE\_RNA-seq\_standards\_v1.0.pdf](Media:ENCODE_RNA-seq_standards_v1.0.pdf "wikilink")
+[ENCODE RNA-Seq Standards](https://genome.ucsc.edu/ENCODE/protocols/dataStandards/ENCODE_RNAseq_Standards_V1.0.pdf)
 
-Methods to study splicing from high-throughput RNA sequencing data [PMID24549677.pdf](Media:PMID24549677_Alamancos_SplicingRNA-seq.pdf "wikilink")
+[Methods to study splicing from high-throughput RNA sequencing data](http://www.ncbi.nlm.nih.gov/pubmed/24549677)
 
-Differential analysis of gene regulation at transcript resolution with RNA-seq [PMC3869392.pdf](Media:PMC3869392_Trapnell_CuffDiff2.pdf "wikilink")
+[Differential analysis of gene regulation at transcript resolution with RNA-seq](http://www.ncbi.nlm.nih.gov/pubmed/23222703)
 
-A comprehensive assessment of RNA-seq accuracy, reproducibility and information content by the Sequencing Quality Control consortium [PMC4321899.pdf](Media:nihms604610.pdf "wikilink")
+[A comprehensive assessment of RNA-seq accuracy, reproducibility and information content by the Sequencing Quality Control Consortium](http://www.ncbi.nlm.nih.gov/pubmed/25150838)
 
-Recurrent chimeric RNAs enriched in human prostate cancer identified by deep sequencing [PMC3107329.pdf](Media:pnas.201100489.pdf "wikilink")
+[Recurrent chimeric RNAs enriched in human prostate cancer identified by deep sequencing](http://www.ncbi.nlm.nih.gov/pubmed/21571633)
 
-The GeneMANIA prediction server: biological network integration for gene prioritization and predicting gene function [PMID20576703.pdf](Media:PMID20576703.pdf "wikilink")
+[The GeneMANIA prediction server: biological network integration for gene prioritization and predicting gene function](http://www.ncbi.nlm.nih.gov/pubmed/20576703)
 
-GeneMANIA Prediction Server 2013 Update [PMC3692113.pdf](Media:PMC3692113.pdf "wikilink")
+[GeneMANIA Prediction Server 2013 Update](http://www.ncbi.nlm.nih.gov/pubmed/23794635)
 
-How to visually interpret biological data using networks [PMID19816451.pdf](Media:PMID19816451.pdf "wikilink")
+[How to visually interpret biological data using networks](http://www.ncbi.nlm.nih.gov/pubmed/19816451)
 
-g:Profiler—a web-based toolset for functional profiling of gene lists from large-scale experiments [PMC1933153.pdf](Media:PMC1933153.pdf "wikilink")
+[g:Profiler--a web-based toolset for functional profiling of gene lists from large-scale experiments](http://www.ncbi.nlm.nih.gov/pubmed/17478515)
 
-g:Profiler—a web server for functional interpretation of gene lists (2011 update) [PMID21646343.pdf](Media:PMID21646343.pdf "wikilink")
-Expression Data Analysis with Reactome [ReactomePaper.pdf](Media:Expression_Data_Analysis_with_Reactome.pdf "wikilink")
+[g:Profiler--a web server for functional interpretation of gene lists (2011 update)](http://www.ncbi.nlm.nih.gov/pubmed/21646343)
+
+[Expression data analysis with reactome](http://www.ncbi.nlm.nih.gov/pubmed/25754994)
 
 <hr>
 Logging into the Amazon cloud
