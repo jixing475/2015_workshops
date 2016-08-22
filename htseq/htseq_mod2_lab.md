@@ -47,11 +47,11 @@ Create a new directory that will store all of the files created in this lab.
 
 **Notes**:
 
--   The `ln -s` command adds symbolic links of all of the files contained in the (read-only) `~/CourseData/HT\_data/Module2` directory.
+-   The `ln -s` command adds symbolic links of all of the files contained in the (read-only) `~/CourseData/HT_data/Module2` directory.
 
 ### Input files
 
-Our data set consists of 100 bp paired-end Illumina reads. The reads for the child (NA12878) are contained in the files `NA12878\_CBW\_chr1\_R1.fastq.gz` and `NA12878\_CBW\_chr1\_R2.fastq.gz`. To inspect their contents:
+Our data set consists of 100 bp paired-end Illumina reads. The reads for the child (NA12878) are contained in the files `NA12878_CBW_chr1_R1.fastq.gz` and `NA12878_CBW_chr1_R2.fastq.gz`. To inspect their contents:
 
 ```
    less NA12878_CBW_chr1_R1.fastq.gz
@@ -111,7 +111,7 @@ The quality of Illumina sequencing reads drops towards the ends of the read. The
 
 **Notes**:
 
--   The `-q .05` parameter instructs the program to trim read ends when the error rate increases above `.05`. This corresponds to a base quality of about 13. The connection between error rate `e` and quality value `v` is: `v = -10 \* log10(e)`. (E.g., `-q .01` is more strict, and corresponds to quality value 20.)
+-   The `-q .05` parameter instructs the program to trim read ends when the error rate increases above `.05`. This corresponds to a base quality of about 13. The connection between error rate `e` and quality value `v` is: `v = -10 * log10(e)`. (E.g., `-q .01` is more strict, and corresponds to quality value 20.)
 
 <!-- -->
 
@@ -137,7 +137,7 @@ The read aligner, BWA-MEM, aligns each mate of a paired-end read at the same tim
 
 **Notes**:
 
--   If you skipped the read trimming step, you can use the untrimmed reads instead: `NA12878\_CBW\_chr1\_R1.fastq.gz` and `NA12878\_CBW\_chr1\_R2.fastq.gz`.
+-   If you skipped the read trimming step, you can use the untrimmed reads instead: `NA12878_CBW_chr1_R1.fastq.gz` and `NA12878_CBW_chr1_R2.fastq.gz`.
 
 <!-- -->
 
@@ -154,8 +154,8 @@ The read aligner, BWA-MEM, aligns each mate of a paired-end read at the same tim
 
 -   The remaining command line arguments:
     -   `hg19.fa`: The name of the FASTA reference sequence.
-    -   `NA12878\_CBW\_chr1\_R1.trim.fastq.gz`: The reads for the first mate.
-    -   `NA12878\_CBW\_chr1\_R2.trim.fastq.gz`: The reads for the second mate.
+    -   `NA12878_CBW_chr1_R1.trim.fastq.gz`: The reads for the first mate.
+    -   `NA12878_CBW_chr1_R2.trim.fastq.gz`: The reads for the second mate.
     -   `NA12878.bwa.sam`: The output file that will contain our alignments (in SAM format).
 
 <!-- -->
@@ -357,8 +357,8 @@ To remove optical and PCR duplicates, we use Picard:
     -   `INPUT`: Input file.
     -   `OUTPUT`: Output file.
     -   `METRICS`: File to write duplication metrics to (required).
-    -   `REMOVE\_DUPLICATES=true`: Actually remove duplicates. If not given, duplicates are only marked as such using SAM flags.
-    -   `VALIDATION\_STRINGENCY=LENIENT`: This is a general Picard option (shared by many tools) that disables the sometimes overly-strict validation of SAM files.
+    -   `REMOVE_DUPLICATES=true`: Actually remove duplicates. If not given, duplicates are only marked as such using SAM flags.
+    -   `VALIDATION_STRINGENCY=LENIENT`: This is a general Picard option (shared by many tools) that disables the sometimes overly-strict validation of SAM files.
 
 <!-- -->
 
@@ -496,4 +496,4 @@ In this lab, we aligned reads from the sample NA12878 to the reference genome `h
 
 -   We realigned short indels using GATK.
 
-If you ever became truly lost in this lab, you can use the lab script to automatically perform all of the steps listed here. If you are logged into your CBW account, just run: `~/CourseData/HT\_data/Module2/scripts/module2-run`. This produces all alignment files for NA12878. To produce them for NA12891 and NA12892 as well, run the same command with the single argument `all`.
+If you ever became truly lost in this lab, you can use the lab script to automatically perform all of the steps listed here. If you are logged into your CBW account, just run: `~/CourseData/HT_data/Module2/scripts/module2-run`. This produces all alignment files for NA12878. To produce them for NA12891 and NA12892 as well, run the same command with the single argument `all`.
