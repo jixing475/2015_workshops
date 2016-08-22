@@ -1,0 +1,83 @@
+# Integrated Assignment HT-seq Data workshop CBW 2015
+
+# Review the techniques learned in Modules 1-3. An additional dataset (fastq file) has been provided here for this purpose.
+# NA12891_CBW_chr1_R1.fastq.gz
+# NA12891_CBW_chr1_R2.fastq.gz
+# NA12892_CBW_chr1_R1.fastq.gz
+# NA12892_CBW_chr1_R2.fastq.gz
+
+# Task list:
+# Align the raw data to the human reference genome.
+# Sort the reads and perform duplicate removal.
+# Index the sorted bam file.
+# Perform indel cleaning.
+
+# Discussion/Questions:
+# Explain the purpose of each step.
+# Which software tool can be used for each step.
+
+# ////////////////////////////////////////
+
+# Create a directory to work in:
+# this is where we'll place all of our output files
+mkdir -p ~/workspace/Integrated_assignment
+cd ~/workspace/Integrated_assignment
+
+# Erase any files that might already be there
+rm *
+
+# Create symbolic links for all of the files contained in the Module2 directory
+# this includes the hg19 genome, the FASTQ files, and dbSNP annotation
+ln -s ~/CourseData/HT_data/Module2/* .
+ls
+
+# We will run the analysis in parallel for the sample dataset coming from the parents; NA12891 (father) and NA12892 (mother)
+
+#*** Align reads using bwa
+# Thi`s step determines where each read in the fastq files maps/aligns to in the genome.
+# The input is a fastq file and the outputs is a SAM file containing our alignments.
+
+bwa mem -t 4 -M -R "@RG\tID:NA12891\tSM:NA12891" hg19.fa NA12891_CBW_chr1_R1.fastq.gz NA12891_CBW_chr1_R2.fastq.gz > NA12891.sam
+bwa mem -t 4 -M -R "@RG\tID:NA12892\tSM:NA12892" hg19.fa NA12892_CBW_chr1_R1.fastq.gz NA12892_CBW_chr1_R2.fastq.gz > NA12892.sam
+
+#*** Convert the SAM file to a BAM file, sort the BAM file, and remove PCR duplicates 
+# The final output is a sorted BAM file with PCR duplicates removed.
+
+# First we convert the SAM file to a BAM file
+samtools view -huS -o NA12891.bam NA12891.sam
+
+# Next sort the BAM file
+samtools sort NA12891.bam NA12891.sorted
+
+# Next mark PCR duplicates
+java -Xmx2g -jar /usr/local/picard-tools-1.124/picard.jar MarkDuplicates INPUT=NA12891.sorted.bam OUTPUT=NA12891.sorted.rmdup.bam METRICS_FILE=NA12891.sorted.rmdup.txt REMOVE_DUPLICATES=false VALIDATION_STRINGENCY=LENIENT
+
+# Letâ€™s do the same for the other SAM file
+samtools view -huS -o NA12892.bam NA12892.sam
+samtools sort NA12892.bam NA12892.sorted
+java -Xmx2g -jar /usr/local/picard-tools-1.124/picard.jar MarkDuplicates INPUT=NA12892.sorted.bam OUTPUT=NA12892.sorted.rmdup.bam METRICS_FILE=NA12892.sorted.rmdup.txt REMOVE_DUPLICATES=false VALIDATION_STRINGENCY=LENIENT
+
+#*** Index the sorted BAM file
+# The following command instructs samtools to create an index for our BAM file
+# The index bam file allows other software (e.g., IGV) to quickly find regions of interest in the BAM file.
+# The output is an .bai bam index file.
+
+samtools index NA12891.sorted.rmdup.bam
+samtools index NA12892.sorted.rmdup.bam
+
+
+# You can now visualize the alignments with IGV - for example (zoom into chr1:17704860-18004860)
+
+
+# Identify places where INDEL realignment might be needed - save the results to NA12891.intervals and NA12892.intervals
+# During normal read alignment, the aligner handles each read separately when figuring out where to place the read. When it comes to INDELs, it is often advantageous to looks at all of the reads at a particular locus in order to fine-tune alignments. In this section, we will use the GATK IndelRealigner to fix our reads
+# The following command determines suspicious intervals which are likely in need of realignment
+
+java -Xmx2g -jar /usr/local/GATK/GenomeAnalysisTK.jar -T RealignerTargetCreator -R hg19.fa -I NA12891.sorted.rmdup.bam -o NA12891.intervals -L chr1:17704860-18004860
+java -Xmx2g -jar /usr/local/GATK/GenomeAnalysisTK.jar -T RealignerTargetCreator -R hg19.fa -I NA12892.sorted.rmdup.bam -o NA12892.intervals -L chr1:17704860-18004860
+
+#*** Perform INDEL realignment using the NA12891.intervals and  NA12892.intervals files respectively
+# This command runs the realigner on the suspicious intervals identified in the previous step.
+
+java -Xmx2g -jar /usr/local/GATK/GenomeAnalysisTK.jar -T IndelRealigner -R hg19.fa -I NA12891.sorted.rmdup.bam -targetIntervals NA12891.intervals -L chr1:17704860-18004860 -o NA12891.sorted.rmdup.realign.bam
+java -Xmx2g -jar /usr/local/GATK/GenomeAnalysisTK.jar -T IndelRealigner -R hg19.fa -I NA12892.sorted.rmdup.bam -targetIntervals NA12892.intervals -L chr1:17704860-18004860 -o NA12892.sorted.rmdup.realign.bam
