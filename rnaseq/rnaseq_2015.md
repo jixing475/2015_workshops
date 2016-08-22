@@ -10,7 +10,7 @@ image: CBW_cancerDNA_icon-16.jpg
 Laptop Setup Instructions
 -------------------------
 
-Instructions for setting up your laptop can be found here: [Laptop Setup Instructions\_RNA-seq](https://github.com/bioinformatics-ca/2015_workshops/blob/master/rnaseq/laptop_instructions.md)
+Instructions for setting up your laptop can be found here: [Laptop Setup Instructions](https://github.com/bioinformatics-ca/2015_workshops/blob/master/rnaseq/laptop_instructions.md)
 
 Pre-Workshop Tutorials
 ----------------------
@@ -75,7 +75,8 @@ Day 1
 <font color="green">*Faculty: Malachi and Obi Griffith*</font>
 
 **Lecture slides:**  
- [RNASeq\_Module0\_AmazonPreTutorial.pdf](https://github.com/griffithlab/rnaseq_tutorial/wiki/LectureFiles/cbw/2015/RNASeq_Module0_AmazonPreTutorial.pdf)
+ [RNASeq\_Module0\_AmazonPreTutorial.pdf](https://github.com/griffithlab/rnaseq_tutorial/wiki/LectureFiles/cbw/2015/RNASeq_Module0_AmazonPreTutorial.pdf)   RNASeq\_Module0\_AmazonPreTutorial.ppt](https://bioinformatics.ca/rnaseq2015module1pptx-0)  
+RNASeq\_Module0\_AmazonPreTutorial.mp4](https://bioinformatics.ca/rnaseq2015module1mp4)
 
 <hr>
 #### Module 1: Introduction to RNA sequencing and analysis
@@ -84,7 +85,9 @@ Day 1
 
 **Lecture slides:**
 
-[RNASeq\_Module1\_Lecture.pdf](https://github.com/griffithlab/rnaseq_tutorial/wiki/LectureFiles/cbw/2015/RNASeq_Module1_Lecture.pdf)
+[RNASeq\_Module1\_Lecture.pdf](https://github.com/griffithlab/rnaseq_tutorial/wiki/LectureFiles/cbw/2015/RNASeq_Module1_Lecture.pdf)  
+[RNASeq\_Module1\_Lecture.ppt](https://bioinformatics.ca/rnaseq2015module2pptx-0)  
+[RNASeq\_Module1\_Lecture.mp4](https://bioinformatics.ca/rnaseq2015module2mp4)
 
 **Lab introduction slides:**
 
@@ -101,7 +104,9 @@ Day 1
 
 **Lecture slides:**
 
-[RNASeq\_Module2\_Lecture.pdf](https://github.com/griffithlab/rnaseq_tutorial/wiki/LectureFiles/cbw/2015/RNASeq_Module2_Lecture.pdf)
+[RNASeq\_Module2\_Lecture.pdf](https://github.com/griffithlab/rnaseq_tutorial/wiki/LectureFiles/cbw/2015/RNASeq_Module2_Lecture.pdf)  
+[RNASeq\_Module2\_Lecture.ppt](https://bioinformatics.ca/rnaseq2015module3pptx-0)  
+[RNASeq\_Module2\_Lecture.mp4](https://bioinformatics.ca/rnaseq2015module3mp4)  
 
 **Lab introduction slides:**
 
@@ -139,7 +144,9 @@ Day 2
 
 **Lecture slides:**
 
-[RNASeq\_Module3\_Lecture.pdf](https://github.com/griffithlab/rnaseq_tutorial/wiki/LectureFiles/cbw/2015/RNASeq_Module3_Lecture.pdf)
+[RNASeq\_Module3\_Lecture.pdf](https://github.com/griffithlab/rnaseq_tutorial/wiki/LectureFiles/cbw/2015/RNASeq_Module3_Lecture.pdf)  
+[RNASeq\_Module3\_Lecture.ppt](https://bioinformatics.ca/rnaseq2015module4pptx-0)  
+[RNASeq\_Module3\_Lecture.mp4](https://bioinformatics.ca/rnaseq2015module4mp4)  
 
 **Lab introduction slides:**
 
@@ -156,7 +163,9 @@ Day 2
 
 **Lecture slides:**
 
-[RNASeq\_Module4\_Lecture.pdf](https://github.com/griffithlab/rnaseq_tutorial/wiki/LectureFiles/cbw/2015/RNASeq_Module4_Lecture.pdf)
+[RNASeq\_Module4\_Lecture.pdf](https://github.com/griffithlab/rnaseq_tutorial/wiki/LectureFiles/cbw/2015/RNASeq_Module4_Lecture.pdf)  
+[RNASeq\_Module4\_Lecture.ppt](https://bioinformatics.ca/rnaseq2015module5pptx)  
+[RNASeq\_Module4\_Lecture.mp4](https://bioinformatics.ca/rnaseq2015module5mp4)  
 
 **Lab introduction slides:**
 
@@ -180,7 +189,7 @@ Tools with installation instruction in our Amazon server
 Data Sets from Workshop
 -----------------------
 
-* [RNA-seq Integrated Data](http://www.hpc4health.ca/sites/default/files/cbw/2015/RNA_data/integrated_assignment_data.zip)
+* [RNA-seq Integrated Data](http://www.hpc4health.ca/sites/default/files/cbw/2015/RNA_data/integrated_assignment_data.zip)  
 * [RNA-seq Integrated Reference](http://www.hpc4health.ca/sites/default/files/cbw/2015/RNA_data/integrated_assignment_refs.zip)
 
 Results from Instructor's Instance on Amazon
