@@ -10,7 +10,7 @@ image: CBW_cancerDNA_icon-16.jpg
 Laptop Setup Instructions
 -------------------------
 
-Instructions for setting up your laptop can be found here: [Laptop Setup Instructions\_Pathways](Laptop_Setup_Instructions_Pathways "wikilink")
+Instructions for setting up your laptop can be found here: [Laptop Setup Instructions\_Pathways](https://raw.githubusercontent.com/bioinformatics-ca/2015_workshops/master/pathways/laptop_instruction.md)
 
 Pre-Workshop Tutorials
 ----------------------
@@ -25,17 +25,21 @@ Pre-Workshop Tutorials
 Pre-Workshop Readings
 ---------------------
 
-![](pdf.gif "fig:pdf.gif") [MEME-ChIP: Motif Analysis of Large Datasets.pdf](Media:PMID21486936.pdf "wikilink")
-![](pdf.gif "fig:pdf.gif") The GeneMANIA prediction server: biological network integration for gene prioritization and predicting gene function [PMID20576703.pdf](Media:PMID20576703.pdf "wikilink")
-
-![](pdf.gif "fig:pdf.gif") GeneMANIA Prediction Server 2013 Update [PMC3692113.pdf](Media:PMC3692113.pdf "wikilink")
-
-![](pdf.gif "fig:pdf.gif") How to visually interpret biological data using networks [PMID19816451.pdf](Media:PMID19816451.pdf "wikilink")
-
-![](pdf.gif "fig:pdf.gif") g:Profiler—a web-based toolset for functional profiling of gene lists from large-scale experiments [PMC1933153.pdf](Media:PMC1933153.pdf "wikilink")
-![](pdf.gif "fig:pdf.gif") g:Profiler—a web server for functional interpretation of gene lists (2011 update) [PMID21646343.pdf](Media:PMID21646343.pdf "wikilink")
-![](pdf.gif "fig:pdf.gif") [Gene set enrichment analysis (GSEA).pdf](Media:PMID16199517.pdf "wikilink")
-![](pdf.gif "fig:pdf.gif") Expression Data Analysis with Reactome [ReactomePaper.pdf](Media:Expression_Data_Analysis_with_Reactome.pdf "wikilink")
+  * [MEME-ChIP: motif analysis of large DNA datasets](http://www.ncbi.nlm.nih.gov/pubmed/21486936)
+  
+  * [The GeneMANIA prediction server: biological network integration for gene prioritization and predicting gene function](http://www.ncbi.nlm.nih.gov/pubmed/20576703)
+  
+  * [GeneMANIA Prediction Server 2013 Update](http://www.ncbi.nlm.nih.gov/pubmed/23794635)
+  
+  * [How to visually interpret biological data using networks](http://www.ncbi.nlm.nih.gov/pubmed/19816451)
+  
+  * [g:Profiler--a web-based toolset for functional profiling of gene lists from large-scale experiments](http://www.ncbi.nlm.nih.gov/pubmed/17478515)
+  
+  * [g:Profiler--a web server for functional interpretation of gene lists (2011 update)](http://www.ncbi.nlm.nih.gov/pubmed/21646343)
+  
+  * [Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles](http://www.ncbi.nlm.nih.gov/pubmed/16199517)
+  
+  * [Expression data analysis with reactome](http://www.ncbi.nlm.nih.gov/pubmed/25754994)
 
 <hr>
 Day 1
@@ -55,17 +59,22 @@ Day 1
 <font color="green">*Faculty: Gary Bader*</font>
 
 **Lecture:**
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_Module1.pdf](Media:Pathways2015_Module1.pdf "wikilink")
+
+[Pathways2015\_Module1.pdf](https://bioinformatics.ca/pathways2015module1pdf)  
+[Pathways2015\_Module1.ppt](https://bioinformatics.ca/pathways2015module1ppt)  
+[Pathways2015\_Module1.mp4](https://bioinformatics.ca/pathways2015module1mp4)  
+
 **Data Set:**
-![](txt.gif "fig:txt.gif") [module1YeastGenes.txt](Media:_module1YeastGenes.txt "wikilink")
+
+[module1YeastGenes.txt](https://raw.githubusercontent.com/bioinformatics-ca/2015_workshops/master/pathways/yeast_genes.txt)
 
 **Links:**
 
-`* The Synergizer `[`1`](http://llama.med.harvard.edu/synergizer/translate/)` - identifier mapping`
-`* Ensembl BioMart `[`2`](http://www.ensembl.org/index.html)` - (in menu bar, select the BioMart tab) eukaryotic gene query system`
-`* ID Conversion Tool: gConvert `[`3`](http://biit.cs.ut.ee/gprofiler/gconvert.cgi)`  - identifier mapping`
-`* Gene Ontology `[`4`](http://www.geneontology.org/)` - gene annotation`
-`* Cytoscape `[`5`](http://www.cytoscape.org/)` - network visualization and analysis`
+* [The Synergizer](http://llama.med.harvard.edu/synergizer/translate/) - identifier mapping
+* [Ensembl BioMart(http://www.ensembl.org/index.html) - (in menu bar, select the BioMart tab) eukaryotic gene query system
+* [ID Conversion Tool: gConvert](http://biit.cs.ut.ee/gprofiler/gconvert.cgi)  - identifier mapping
+* [Gene Ontology](http://www.geneontology.org/) - gene annotation
+* [Cytoscape](http://www.cytoscape.org/) - network visualization and analysis
 
 <hr>
 ### Module 2: Finding over-represented pathways in gene lists
@@ -73,35 +82,45 @@ Day 1
 <font color="green">*Faculty: Quaid Morris*</font>
 
 **Lecture:**
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_Module2.pdf](Media:Pathways2015_Module2.pdf "wikilink")
+
+[Pathways2015\_Module2.pdf](https://bioinformatics.ca/pathways2015module2pdf)  
+[Pathways2015\_Module2.ppt](https://bioinformatics.ca/pathways2015module2pptx)  
+[Pathways2015\_Module2.mp4](https://bioinformatics.ca/pathways2015module2mp4)  
+
 **Lab Practical:** Gene-set enrichment analyses using GSEA and g:Profiler
+
 <font color="green">*Faculty: Veronique Voisin*</font>
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_Module2\_LabSlides.pdf](Media:‎Pathways2015_Module2_LabSlides.pdf "wikilink")
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_Module2\_LabExercise.pdf](Media:‎Pathways2015_Module2_LabExercise.pdf "wikilink")
+
+[Pathways2015\_Module2\_LabSlides.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module2_LabSlides.pdf)
+[Pathways2015\_Module2\_LabExercise.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module2_LabExercise.pdf)
+
 **Data Set:**
-\* GSEA (exercise 1)
 
-` * `![`txt.gif`](txt.gif "fig:txt.gif")` `[`MCF7_Expression_matrix.gct`](Media:_MCF7_Expression_matrix.gct "wikilink")
-` * `![`txt.gif`](txt.gif "fig:txt.gif")` `[`Human_GO_AllPathways.gmt`](Media:_Human_GO_AllPathways.gmt "wikilink")
-` * `![`txt.gif`](txt.gif "fig:txt.gif")` `[`MCF7_groups.cls`](Media:_MCF7_groups.cls "wikilink")
+* GSEA (exercise 1)
 
-`* g:Profiler (exercise 2)`
-` * `![`txt.gif`](txt.gif "fig:txt.gif")` `[`24hr_topgenes.txt`](Media:_24hr_topgenes.txt "wikilink")
+* [MCF7_Expression_matrix.gct](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/MCF7_Expression_matrix.gct)  
+* [Human_GO_AllPathways.gmt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Human_GO_AllPathways.gmt)  
+* [MCF7_groups.cls](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/MCF7_groups.cls)  
+
+* g:Profiler (exercise 2)
+
+* [24hr_topgenes.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/24hr_topgenes.txt)
 
 **Launching GSEA:**
-\* ![](txt.gif "fig:txt.gif") [GSEA\_installation.pdf](Media:_GSEA_installation.pdf "wikilink")
 
-` command line: java -Xmx2G -jar gsea2-2.2.0.jar`
+* [GSEA\_installation.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/GSEA_installation.pdf)
+
+`command line: java -Xmx2G -jar gsea2-2.2.0.jar`
 
 **Additional Links:**
 
-`* GSEA `[`6`](http://www.baderlab.org/CancerStemCellProject/VeroniqueVoisin/AdditionalResources/GSEA)` - help on format, installation, method,...`
-`* g:Profiler `[`7`](http://biit.cs.ut.ee/gprofiler/)
-`* DAVID `[`8`](http://david.abcc.ncifcrf.gov/)` - Enrichment Analysis for simple gene lists (jacknifed Fisher's Exact Test)`
-`* ConceptGen `[`9`](http://conceptgen.ncibi.org/core/conceptGen/index.jsp)` - Enrichment Analysis for simple gene lists (Fisher's Exact Test)`
-`* GSEA `[`10`](http://www.broad.mit.edu/gsea/)` - Enrichment Analysis for ranked gene lists`
-`* Other Enrichment Analysis tools for simple gene lists: Funspec `[`11`](http://funspec.med.utoronto.ca/)`, GoMiner `[`12`](http://discover.nci.nih.gov/gominer/)
-`* List of 68 Enrichment Tools `[`13`](http://www.nature.com/nprot/journal/v4/n1/extref/nprot.2008.211-S1.xls)` available as of 2008`
+* [GSEA](http://www.baderlab.org/CancerStemCellProject/VeroniqueVoisin/AdditionalResources/GSEA) - help on format, installation, method,...
+* [g:Profiler](http://biit.cs.ut.ee/gprofiler/)
+* [DAVID](http://david.abcc.ncifcrf.gov/) - Enrichment Analysis for simple gene lists (jacknifed Fisher's Exact Test)
+* [ConceptGen](http://conceptgen.ncibi.org/core/conceptGen/index.jsp) - Enrichment Analysis for simple gene lists (Fisher's Exact Test)
+* [GSEA](http://www.broad.mit.edu/gsea/) - Enrichment Analysis for ranked gene lists
+* Other Enrichment Analysis tools for simple gene lists: [Funspec](http://funspec.med.utoronto.ca/), [GoMiner](http://discover.nci.nih.gov/gominer/)
+* [List of 68 Enrichment Tools](http://www.nature.com/nprot/journal/v4/n1/extref/nprot.2008.211-S1.xls) available as of 2008
 
 <hr>
 ### Module 3: Cytoscape Intro, Demo and Enrichment Maps
@@ -109,68 +128,73 @@ Day 1
 <font color="green">*Faculty: Gary Bader*</font>
 
 **Lecture:**
-![](pdf.gif "fig:pdf.gif") [Pathways\_2015\_Module3-Part1.pdf](Media:_Pathways_2015_Module3-Part1.pdf "wikilink")
-![](pdf.gif "fig:pdf.gif") [Pathways\_2015\_Module3-Part2.pdf](Media:_Pathways_2015_Module3-Part3.pdf "wikilink")
+
+[Pathways\_2015\_Module3.pdf](https://bioinformatics.ca/pathways2015module3pdf)  
+[Pathways\_2015\_Module3.ppt](https://bioinformatics.ca/pathways2015module3ppt)  
+[Pathways\_2015\_Module3.mp4](https://bioinformatics.ca/pathways2015module3mp4)  
 
 **Lab Practical:** Creating an enrichment map from GSEA and g:Profiler results
 
-`* `[`http://baderlab.org/Software/EnrichmentMap`](http://baderlab.org/Software/EnrichmentMap)
+* [http://baderlab.org/Software/EnrichmentMap](http://baderlab.org/Software/EnrichmentMap)
 
-`* link to install the latest available version of enrichment map: `[`http://baderlab.org/Software/EnrichmentMap#Development_Versions`](http://baderlab.org/Software/EnrichmentMap#Development_Versions)
+* link to install the latest available version of enrichment map: [http://baderlab.org/Software/EnrichmentMap#Development_Versions](http://baderlab.org/Software/EnrichmentMap#Development_Versions)
 
-` * Exercise 1: generate an enrichment map using GSEA results. Follow this protocol:`
-` `[`http://baderlab.org/Software/EnrichmentMap/Tutorial#Step_2:_Generate_Enrichment_Map_with_GSEA_Output`](http://baderlab.org/Software/EnrichmentMap/Tutorial#Step_2:_Generate_Enrichment_Map_with_GSEA_Output)
+* Exercise 1: generate an enrichment map using GSEA results. Follow this protocol:
+ [http://baderlab.org/Software/EnrichmentMap/Tutorial#Step_2:_Generate_Enrichment_Map_with_GSEA_Output](http://baderlab.org/Software/EnrichmentMap/Tutorial#Step_2:_Generate_Enrichment_Map_with_GSEA_Output)
 
-` * Exercise 2: generate an enrichment map using g:Profiler results. Follow this protocol:`
-` `[`http://baderlab.org/Software/EnrichmentMap/GProfilerTutorial#Step_2:_Generate_Enrichment_Map_with_g:Profiler_Output`](http://baderlab.org/Software/EnrichmentMap/GProfilerTutorial#Step_2:_Generate_Enrichment_Map_with_g:Profiler_Output)
+* Exercise 2: generate an enrichment map using g:Profiler results. Follow this protocol:
+ [http://baderlab.org/Software/EnrichmentMap/GProfilerTutorial#Step_2:_Generate_Enrichment_Map_with_g:Profiler_Output](http://baderlab.org/Software/EnrichmentMap/GProfilerTutorial#Step_2:_Generate_Enrichment_Map_with_g:Profiler_Output)
 
 **Data Sets:**
 
 -   Dataset Exercise 1 (download the folder, unzip it):
 
-` *`![`txt.gif`](txt.gif "fig:txt.gif")`  `[`EM_EstrogenMCF7_GSEAresults.zip`](Media:EM_EstrogenMCF7_GSEAresults.zip "wikilink")
+* [EM_EstrogenMCF7_GSEAresults.zip](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/EM_EstrogenMCF7_GSEAresults.zip)
 
 -   Dataset Exercise 2:
 
-` *`![`txt.gif`](txt.gif "fig:txt.gif")`  `[`gprofiler_results_12hours.txt`](Media:gprofiler_results_12hours.txt "wikilink")
-` *`![`txt.gif`](txt.gif "fig:txt.gif")`  `[`hsapiens.NAME.gmt`](Media:hsapiens.NAME.gmt "wikilink")
+*  [gprofiler_results_12hours.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Gprofiler_results_12hours.txt)
+*  [hsapiens.NAME.gmt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Hsapiens.NAME.gmt)
 
 **Result (back up files / cytoscape files):**
-\* ![](txt.gif "fig:txt.gif") [ES12\_vs\_NT12\_GSEA\_cyto3.cys](Media:ES12_vs_NT12_GSEA_cyto3.cys "wikilink")
 
-`* `![`txt.gif`](txt.gif "fig:txt.gif")`  `[`gprofiler_results_12hours.cys`](Media:gprofiler_results_12hours.cys "wikilink")
+* [ES12\_vs\_NT12\_GSEA\_cyto3.cys](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/ES12_vs_NT12_GSEA_cyto3.cys)
+
+* [gprofiler_results_12hours.cys](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Gprofiler_results_12hours.cys)
 
 **Lab Practical optional:** Use your own data set.
-**Programs Used:**
-\* Cytoscape \[ <http://www.cytoscape.org/>\]
 
-`* Open Tutorials for Cytoscape: `[`http://opentutorials.cgl.ucsf.edu/index.php/Portal:Cytoscape`](http://opentutorials.cgl.ucsf.edu/index.php/Portal:Cytoscape)
-`Useful plugins:`
-`* VistaClara - makes it easy to visualize gene expression data on networks`
-`* Agilent Literature Search - extracts interactions from PubMed abstracts`
-`* clusterMaker - provides multiple ways to cluster gene expression and networks`
-`* BiNGO - provides over-representation analysis using Gene Ontology in Cytoscape - you can select genes in your network or provide a list of genes and see the enrichment results visually mapped to the Gene Ontology`
-`* commandTool, coreCommands - used to control Cytoscape by a series of commands. E.g. automate the process: open network, layout network, save network as PDF. These plugins require Cytoscape 2.7`
-`* jActiveModules - requires gene expression data over multiple samples (>3). Finds regions of a network where genes are active (e.g. differentially expressed) across multiple samples.`
-`* Many more at `[`http://chianti.ucsd.edu/cyto_web/plugins/index.php`](http://chianti.ucsd.edu/cyto_web/plugins/index.php)
+**Programs Used:**
+
+* [Cytoscape](http://www.cytoscape.org/)
+
+* [Open Tutorials for Cytoscape](http://opentutorials.cgl.ucsf.edu/index.php/Portal:Cytoscape)
+
+Useful plugins:
+* VistaClara - makes it easy to visualize gene expression data on networks
+* Agilent Literature Search - extracts interactions from PubMed abstracts
+* clusterMaker - provides multiple ways to cluster gene expression and networks
+* BiNGO - provides over-representation analysis using Gene Ontology in Cytoscape - you can select genes in your network or provide a list of genes and see the enrichment results visually mapped to the Gene Ontology
+* commandTool, coreCommands - used to control Cytoscape by a series of commands. E.g. automate the process: open network, layout network, save network as PDF. These plugins require Cytoscape 2.7
+* jActiveModules - requires gene expression data over multiple samples (>3). Finds regions of a network where genes are active (e.g. differentially expressed) across multiple samples.
+* Many more at [http://chianti.ucsd.edu/cyto_web/plugins/index.php](http://chianti.ucsd.edu/cyto_web/plugins/index.php)
 
 <hr>
 ### Integrated Assignment - Day 1
 
 <font color="green">*Faculty: Veronique Voisin*</font>
 
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_part1\_IntegratedAssignment.pdf](Media:_Pathways2015_part1_IntegratedAssignment.pdf "wikilink")
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_part1\_IntegratedAssignmentAnswers.pdf](Media:_Pathways2015_part1_IntegratedAssignmentAnswers.pdf "wikilink")
+[Pathways2015\_part1\_IntegratedAssignment.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_part1_IntegratedAssignment.pdf)
+[Pathways2015\_part1\_IntegratedAssignmentAnswers.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_part1_IntegratedAssignmentAnswers.pdf)
 
 **Input Data sets:**
-\* [ Day5 All Integrated Assignment Files](Media:Day5_IntegratedAssignment.zip "wikilink")
-\* ![](txt.gif "fig:txt.gif") [ Expression.txt](Media:Expression.txt "wikilink")
 
-`* `![`txt.gif`](txt.gif "fig:txt.gif")` `[ `gem1033458993259_BE.txt`](Media:gem1033458993259_BE.txt "wikilink")
-`* `![`txt.gif`](txt.gif "fig:txt.gif")` `[ `gem1047581616441_EAC.txt`](Media:gem1047581616441_EAC.txt "wikilink")
-`* `![`txt.gif`](txt.gif "fig:txt.gif")` `[ `GeneSet1_BE.txt`](Media:GeneSet1_BE.txt "wikilink")
-`* `![`txt.gif`](txt.gif "fig:txt.gif")` `[ `GeneList2_EAC.txt`](Media:GeneList2_EAC.txt "wikilink")
-`* `![`txt.gif`](txt.gif "fig:txt.gif")` `[ `hsapiens.NAME.gmt`](Media:hsapiens.NAME.gmt "wikilink")
+* [Expression.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Expression.txt)
+* [gem1033458993259_BE.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Gem1033458993259_BE.txt)
+* [gem1047581616441_EAC.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Gem1047581616441_EAC.txt)
+* [GeneSet1_BE.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/GeneSet1_BE.txt)
+* [GeneList2_EAC.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/GeneList2_EAC.txt)
+* [hsapiens.NAME.gmt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Hsapiens.NAME.gmt)
 
 <hr>
 Day 2
@@ -182,44 +206,55 @@ Day 2
 <font color="green">*Faculty: Lincoln Stein*</font>
 
 **Lecture:**
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_Module4.pdf](Media:Pathways2015_Module4.pdf "wikilink")
+
+[Pathways2015\_Module4.pdf](https://bioinformatics.ca/pathways2015module4pdf)  
+[Pathways2015\_Module4.ppt](https://bioinformatics.ca/pathways2015module4pptx)  
+[Pathways2015\_Module4.mp4](https://bioinformatics.ca/pathways2015module4mp4)  
 
 **Lab Practical:**
-<font color="green">*Faculty: Robin Haw*</font>
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_Module4\_LabSlides.pdf](Media:Pathways2015_Module4_LabSlides.pdf "wikilink")
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_Module4\_Lab.pdf](Media:Pathways2015_Module4_Lab.pdf "wikilink")
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_Module4\_LabAnswers.pdf](Media:Pathways2015_Module4_LabAnswers.pdf "wikilink")
-**Data Sets:**
-[ Module 4 Data Set](Media:Day2_Module4_DataSets.zip "wikilink")
 
-![](txt.gif "fig:txt.gif")[ Demo file](Media:LAC_genelist.txt "wikilink")
-![](txt.gif "fig:txt.gif")[ GBM gene list](Media:GBM_TCGA_GeneList.txt "wikilink")
-![](txt.gif "fig:txt.gif")[ GBM gene-sample pair](Media:GBM_genesample.txt "wikilink")
-![](txt.gif "fig:txt.gif")[OVCA TCGA MAF](Media:OVCA_TCGA_MAF.txt "wikilink")
-![](txt.gif "fig:txt.gif")[OVCA TCGA clinical data](Media:OVCA_TCGA_Clinical.txt "wikilink")
-![](txt.gif "fig:txt.gif")[ Breast Cancer Data](Media:NEJM_Expression_Data.zip "wikilink")
+<font color="green">*Faculty: Robin Haw*</font>
+
+[Pathways2015\_Module4\_LabSlides.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module4_LabSlides.pdf)  
+[Pathways2015\_Module4\_Lab.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module4_Lab.pdf)  
+[Pathways2015\_Module4\_LabAnswers.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module4_LabAnswers.pdf)  
+
+**Data Sets:**
+
+[Module 4 Data Set](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Day2_Module4_DataSets.zip)
+
 **Programs Used:**
 
-` Reactome Website:  `[`14`](http://www.reactome.org)
-` Reactome User Guide:  `[`15`](http://wiki.reactome.org/index.php/Usersguide)
-` ReactomeFI User Guide : `[`16`](http://wiki.reactome.org/index.php/Reactome_FI_Cytoscape_Plugin)
+[Reactome Website](http://www.reactome.org)  
+[Reactome User Guide](http://wiki.reactome.org/index.php/Usersguide)  
+[ReactomeFI User Guide](http://wiki.reactome.org/index.php/Reactome_FI_Cytoscape_Plugin)  
 
 **Papers:**
-Clustering Algorithms : ![](pdf.gif "fig:pdf.gif") [Newman Clustering](Media:Newman_Clustering_2006.pdf "wikilink") and ![](pdf.gif "fig:pdf.gif") [Hotnet](Media:Vandin_PSB_2012.pdf "wikilink")
-Reactome Website : ![](pdf.gif "fig:pdf.gif") [NAR paper](Media:Croft_NAR_2014.pdf "wikilink")
-Nature Methods Perspectives Paper: ![](pdf.gif "fig:pdf.gif") [Nature Methods Perpsectives on Cancer Pathway Analysis.pdf](Media:Nature_Methods_Perspectives_Cancer_Pathway_Analysis-TO_SUBMIT-1May2014.pdf "wikilink")
-Supplementary Materials: ![](pdf.gif "fig:pdf.gif") [Supplementary Materials.pdf](Media:Supplementary_Materials_CLEAN_Nature_Methods_Perspectives_Cancer_Pathway_Analysis-13Apr2014.pdf "wikilink")
+
+[Integrated genomic analyses of ovarian carcinoma](http://www.nature.com/nature/journal/v474/n7353/full/nature10166.html)
+
+Clustering Algorithms: [Newman Clustering](http://www.pnas.org/content/103/23/8577.abstract) and [Hotnet](http://www.ncbi.nlm.nih.gov/pubmed/22174262)
+
+Reactome Website: [NAR paper](http://www.ncbi.nlm.nih.gov/pubmed/26656494); [Website guide](https://bioinformatics-ca.github.io/2016_workshops/cancer/ReactomeWebSiteGuide_for_resources.pdf)
+
+[Nature Methods and Perspectives Paper](http://www.ncbi.nlm.nih.gov/pubmed/26125594)
+
+[Supplementary Materials](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4717906/bin/NIHMS750562-supplement-Supplementary_materials.pdf)
+
+
 **Links:**
 
-<b>`Pathway and Interaction databases`</b>
-`GO `[`17`](http://www.geneontology.org)
-`KEGG `[`18`](http://www.genome.jp/kegg)
-`Biocarta `[`19`](http://www.biocarta.com)
-`Reactome `[`20`](http://reactome.org/)`  (Curated human pathways)`
-`NCI/PID `[`21`](http://pid.nci.nih.gov/)
-`Pathway Commons `[`22`](http://www.pathwaycommons.org/pc/)` (Aggregates pathways from multiple sources)`
-`iRefWeb/iRefIndex `[`23`](http://wodaklab.org/iRefWeb/)` (Protein interactions)`
-`>300 more at `[`http://www.pathguide.org/`](http://www.pathguide.org/)
+<b>Pathway and Interaction databases</b>
+
+ * [GO](http://www.geneontology.org)
+ * [KEGG](http://www.genome.jp/kegg)
+ * [Biocarta](http://www.biocarta.com)
+ * [Reactome](http://reactome.org/) Curated human pathways
+ * [NCI/PID](http://pid.nci.nih.gov/)
+ * [Pathway Commons](http://www.pathwaycommons.org/pc/) Aggregates pathways from multiple sources
+ * [iRefWeb/iRefIndex](http://wodaklab.org/iRefWeb/) Protein interactions
+ * [>300 more](http://www.pathguide.org/)
+
 
 <hr>
 ### Module 5: Gene Function Prediction
@@ -227,36 +262,45 @@ Supplementary Materials: ![](pdf.gif "fig:pdf.gif") [Supplementary Materials.pdf
 <font color="green">*Faculty: Quaid Morris*</font>
 
 **Lecture:**
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_NYC\_Module5.pdf](Media:Pathways2015_Module5.pdf‎ "wikilink")
+
+[Pathways2015\_NYC\_Module5.pdf](https://bioinformatics.ca/pathways2015module5pdf)  
+[Pathways2015\_NYC\_Module5.ppt](https://bioinformatics.ca/pathways2015module5ppt)  
+[Pathways2015\_NYC\_Module5.mp4](https://bioinformatics.ca/pathways2015module5mp4)  
 
 **Lab Practical:**
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_Module5\_LabSlides.pdf](Media:Pathways2015_Module5_LabSlides.pdf "wikilink")
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_Module5\_LabExercise.pdf](Media:Pathways2015_Module5_Lab.pdf "wikilink")
+
+[Pathways2015\_Module5\_LabSlides.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module5_LabSlides.pdf)
+[Pathways2015\_Module5\_LabExercise.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module5_Lab.pdf)
+
 **Data Sets for GeneMANIA exercises:**
-![](txt.gif "fig:txt.gif") [30\_prostate\_cancer\_genes.txt](Media:30_prostate_cancer_genes.txt "wikilink")
-![](txt.gif "fig:txt.gif") [mixed\_gene\_list.txt](Media:mixed_gene_list.txt "wikilink")
-![](txt.gif "fig:txt.gif") [CYB11B\_pearson\_correlation\_prostate.txt](Media:CYB11B_pearson_correlation_prostate.txt "wikilink")
+
+[30\_prostate\_cancer\_genes.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/30_prostate_cancer_genes.txt)
+[mixed\_gene\_list.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Mixed_gene_list.txt)
+[CYB11B\_pearson\_correlation\_prostate.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/CYB11B_pearson_correlation_prostate.txt)
+
 **Links:**
+
 <b>Tools for gene function prediction systems (using functional associations)</b>
 
-`* GeneMANIA `[`24`](http://www.genemania.org/)` (or beta version `[`25`](http://beta.genemania.org/)`)`
-`* STRING  `[`26`](http://string.embl.de/)
-`* FunCoup `[`27`](http://funcoup.sbc.su.se/)` -- similar to STRING and GeneMANIA`
-`* bioPIXIE `[`28`](http://pixie.princeton.edu/pixie/)` -- an early gene recommender system for yeast`
-`* mouseNET `[`29`](http://mousenet.princeton.edu/)` -- gene recommender for mouse`
-`* FunctionalNet `[`30`](http://www.functionalnet.org/)` -- composite functional networks for work, yeast, mouse and A thaliana`
-`* FuncBase `[`31`](http://func.mshri.on.ca/)` -- a compiled database of gene functional predictions using supervised learning on Gene Ontology categories`
+* [GeneMANIA](http://www.genemania.org/) (or [beta version](http://beta.genemania.org/))
+* [STRING](http://string.embl.de/)
+* [FunCoup](http://funcoup.sbc.su.se/) -- similar to STRING and GeneMANIA
+* [bioPIXIE](http://pixie.princeton.edu/pixie/) -- an early gene recommender system for yeast
+* [mouseNET](http://mousenet.princeton.edu/) -- gene recommender for mouse
+* [FunctionalNet](http://www.functionalnet.org/) -- composite functional networks for work, yeast, mouse and A thaliana
+* [FuncBase](http://func.mshri.on.ca/) -- a compiled database of gene functional predictions using supervised learning on Gene Ontology categories
 
 <hr>
 ### Integrated Assignment - Day 2
 
 <font color="green">*Faculty: Veronique Voisin*</font>
 
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_part2\_IntegratedAssignment.pdf](Media:_Pathways2015_part2_IntegratedAssignmentAnswers.pdf "wikilink")
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_part2\_IntegratedAssignmentAnswers.pdf](Media:_Pathways2015_part2_IntegratedAssignment.pdf "wikilink")
+[Pathways2015\_part2\_IntegratedAssignment.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_part2_IntegratedAssignment.pdf)
+[Pathways2015\_part2\_IntegratedAssignmentAnswers.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_part2_IntegratedAssignmentAnswers.pdf)
 
 **Input Data sets:**
-\* ![](txt.gif "fig:txt.gif") [ STAD\_MutSig.txt](Media:STAD_MutSig.txt "wikilink") (named GastricCancer\_mutsig.txt in the instructions)
+
+* [STAD\_MutSig.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/STAD_MutSig.txt) (named GastricCancer\_mutsig.txt in the instructions)
 
 <hr>
 Day 3
@@ -268,28 +312,26 @@ Day 3
 <font color="green">*Faculty: Michael Hoffman*</font>
 
 **Lecture:**
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_Module6.pdf](Media:Pathways2015_Module6.pdf "wikilink")
+
+[Pathways2015\_Module6.pdf](https://bioinformatics.ca/pathways2015module6pdf)  
+[Pathways2015\_Module6.ppt](https://bioinformatics.ca/pathways2015module6pptx)  
+[Pathways2015\_Module6.mp4](https://bioinformatics.ca/pathways2015module6mp4)  
 
 **Lab Practical:**
-![](pdf.gif "fig:pdf.gif") [Pathways2015\_Module6\_Lab.pdf](Media:HT-Biology2015_Module17_Lab.pdf "wikilink") ![](pdf.gif "fig:pdf.gif") [Pathways2015\_Module6\_Lab\_Addenda.pdf](Media:HT-Biology2015_Module17_Lab_Addenda.pdf "wikilink")
 
--   Nature Protocols paper by Ma, Bailey, and Noble: ![](txt.gif "fig:txt.gif")[Nprot.2014.083.pdf](Media:Nprot.2014.083.pdf "wikilink")
+[Pathways2015\_Module6\_Lab.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/HT-Biology2015_Module17_Lab.pdf) [Pathways2015\_Module6\_Lab\_Addenda.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/HT-Biology2015_Module17_Lab_Addenda.pdf)
+
+-   Nature Protocols paper by Ma, Bailey, and Noble: [Nprot.2014.083.pdf](Media:Nprot.2014.083.pdf "wikilink")
 
 **Precomputed results:**
-\* A549 c-Myc
 
--   -   [WgEncodeSydhTfbsA549CmycIggrabPk.narrowPeak.gz narrowPeak file](Media:WgEncodeSydhTfbsA549CmycIggrabPk.narrowPeak.gz "wikilink")
-    -   [Study\_case\_1.fa](Media:Study_case_1.fa "wikilink")
-    -   [MEME-ChIP report on A549 c-Myc](http://meme-suite.org/opal-jobs/appMEMECHIP_4.10.114333121108361396281259/meme-chip.html)
--   Unknown factor X
-    -   [MEME-ChIP report on unknown factor X](http://meme-suite.org/opal-jobs/appMEMECHIP_4.10.11433312170419-164473246/meme-chip.html)
-    -   [FIMO report on unknown factor X](http://meme-suite.org//info/status?service=FIMO&id=appFIMO_4.10.11433333067982-1298858865)
+* A549 c-Myc
 
-The above results should work for only a couple of days after the workshop. Archived results are in ![](AppMEMECHIP_4.10.114306204728401779362043.tar.gz "fig:AppMEMECHIP_4.10.114306204728401779362043.tar.gz").
+The results provided during the workshop do not work outside the workshop. Archived results are in ![AppMEMECHIP_4.10.114306204728401779362043.tar.gz](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/File-AppMEMECHIP_4.10.114306204728401779362043.tar.gz).
 
 **Links:**
 
-` * `[`ENCODE` `Project`](http://encodeproject.org/)
-` * `[`UCSC` `ENCODE` `file` `search`](http://encodeproject.org/cgi-bin/hgFileSearch?db=hg19)
-` * `[`Galaxy`](https://usegalaxy.org/)
-` * `[`MEME` `Suite`](http://meme.nbcr.net/)
+* [ENCODE Project](http://encodeproject.org/)
+* [UCSC ENCODE file search](http://encodeproject.org/cgi-bin/hgFileSearch?db=hg19)
+* [Galaxy](https://usegalaxy.org/)
+* [MEME Suite](http://meme.nbcr.net/)
