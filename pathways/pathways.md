@@ -71,7 +71,7 @@ Day 1
 **Links:**
 
 * [The Synergizer](http://llama.med.harvard.edu/synergizer/translate/) - identifier mapping  
-* [Ensembl BioMart(http://www.ensembl.org/index.html) - (in menu bar, select the BioMart tab) eukaryotic gene query system  
+* [Ensembl BioMart](http://www.ensembl.org/index.html) - (in menu bar, select the BioMart tab) eukaryotic gene query system  
 * [ID Conversion Tool: gConvert](http://biit.cs.ut.ee/gprofiler/gconvert.cgi)  - identifier mapping  
 * [Gene Ontology](http://www.geneontology.org/) - gene annotation  
 * [Cytoscape](http://www.cytoscape.org/) - network visualization and analysis  
@@ -102,7 +102,7 @@ Day 1
   * [Human_GO_AllPathways.gmt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Human_GO_AllPathways.gmt)  
   * [MCF7_groups.cls](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/MCF7_groups.cls)  
 
-* g:Profiler (exercise 2)
+* g:Profiler (exercise 2)
 
   * [24hr_topgenes.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/24hr_topgenes.txt)
 
@@ -190,11 +190,11 @@ Useful plugins:
 **Input Data sets:**
 
 * [Expression.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Expression.txt)  
-* [gem1033458993259_BE.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Gem1033458993259_BE.txt)  
-* [gem1047581616441_EAC.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Gem1047581616441_EAC.txt)  
-* [GeneSet1_BE.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/GeneSet1_BE.txt)  
-* [GeneList2_EAC.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/GeneList2_EAC.txt)  
-* [hsapiens.NAME.gmt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Hsapiens.NAME.gmt)  
+* [gem1033458993259_BE.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Gem1033458993259_BE.txt)  
+* [gem1047581616441_EAC.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Gem1047581616441_EAC.txt)  
+* [GeneSet1_BE.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/GeneSet1_BE.txt)  
+* [GeneList2_EAC.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/GeneList2_EAC.txt)  
+* [hsapiens.NAME.gmt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Hsapiens.NAME.gmt)  
 
 <hr>
 Day 2
