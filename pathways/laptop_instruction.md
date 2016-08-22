@@ -1,3 +1,5 @@
+# Laptop Setup Instructions
+
 
 1) A robust internet browser such as Chrome (Internet Explorer is not recommended). Firefox and Safari are also fine.
 
