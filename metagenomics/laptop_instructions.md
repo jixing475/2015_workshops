@@ -48,19 +48,28 @@ https://github.com/dparks1134/STAMP/releases/download/v2.0.9/STAMP_2_0_9.exe
 ```
 
 5. Install a scipy (again type the following command in the Terminal Window):
+
+```
  conda install scipy
- 
+```
+
 6. Install STAMP (again type the following command in the Terminal Window):
+
+```
  pip install STAMP 
- 
+```
+
 7. Open new terminal session and type “STAMP” to launch the graphical interface.
 <br>
 <br> 
 <br>
 <b>Linux</b><br>
 1. From a Terminal/Console window type:
- sudo apt-get install freetype* python-pip python-dev python-numpy python-scipy python-matplotlib
- 
+
+``` 
+sudo apt-get install freetype* python-pip python-dev python-numpy python-scipy python-matplotlib
+```
+
 2. Then type:
 
 ```
