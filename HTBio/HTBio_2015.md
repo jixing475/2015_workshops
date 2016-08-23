@@ -113,9 +113,9 @@ From <http://goo.gl/ruy9ib>
 
 **Lab Practical:**
 
-[Lab practical](Reference_Alignment_Lab_2015 "wikilink")
+[Lab practical](http://bioinformatics-ca.github.io/high-throughput_sequencing_mod2_lab_2015/)
 
-[Discussion questions](Reference_Alignment_Discussion_Questions_2015 "wikilink")
+[Discussion questions](https://github.com/bioinformatics-ca/2015_workshops/blob/master/htseq/htseq_mod2_disc.md)
 
 **Data set:**
 
@@ -124,7 +124,6 @@ You can download the data set from [here](http://www.hpc4health.ca/sites/default
 **Programs used:**
 
 * [samtools](http://samtools.sourceforge.net/)
-
 * [BWA](http://bio-bwa.sourceforge.net/)
 * [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)
 * [Picard](http://broadinstitute.github.io/picard/index.html)
@@ -136,7 +135,7 @@ You can download the data set from [here](http://www.hpc4health.ca/sites/default
 
 * [SEQanswers bioinformatics forum](http://seqanswers.com/forums/forumdisplay.php?f=18)  
 * [SAM/BAM file format specification](http://samtools.sourceforge.net/SAM1.pdf)  
-* [Paired end vs mate pair reads](Media:Paired_end_and_mate_pair.pdf "wikilink")  
+* [Paired end vs mate pair reads](https://github.com/bioinformatics-ca/2015_workshops/raw/master/htseq/Paired_end_and_mate_pair.pdf)  
 * [Base qualities vs mapping qualities](http://maq.sourceforge.net/qual.shtml)  
 * [The decoy genome](http://www.cureffi.org/2013/02/01/the-decoy-genome/)  
 
@@ -153,7 +152,7 @@ You can download the data set from [here](http://www.hpc4health.ca/sites/default
 **Lab Practical:**
 
 * [Visualization Scavenger Hunt](Media:Visualization_Scavenger_Hunt.pdf "wikilink")
-* Part I: [Using the IGV to visualize HTS datasets](Using_the_IGV_to_visualize_HTS_datasets "wikilink")
+* Part I: [Using the IGV to visualize HTS datasets](http://bioinformatics-ca.github.io/bioinformatics_for_cancer_genomics_IGV_lab_2016/)
 * Part II: [Using the Savant Genome Browser to visualize HTS datasets](Using_the_Savant_Genome_Browser_to_visualize_HTS_datasets "wikilink") (start at inspecting structural variants)
 
 **Data set:**
@@ -180,7 +179,7 @@ You can download the data set from [here](http://www.hpc4health.ca/sites/default
 [HT-Biology2015\_Module4.pdf](https://bioinformatics.ca/htbiology2015module4pdf)  
 [HT-Biology2015\_Module4.mp4](https://bioinformatics.ca/htbiology2015module4mp4)
 
-Paper cited by Jared in lecture: [http://genomebiology.com/2014/15/3/R42 A comprehensive evaluation of assembly scaffolding tools](http://genomebiology.com/2014/15/3/R42_A_comprehensive_evaluation_of_assembly_scaffolding_tools "wikilink")
+Paper cited by Jared in lecture: [http://genomebiology.com/2014/15/3/R42 A comprehensive evaluation of assembly scaffolding tools](http://genomebiology.com/2014/15/3/R42_A_comprehensive_evaluation_of_assembly_scaffolding_tools)
 
 <hr>
 ### Integrated Assignment for Day 1
@@ -202,7 +201,7 @@ Discussion/Questions:
 1.  Explain the purpose of each step.
 2.  Which software tool can be used for each step.
 
-Integrated Assignment:  [ IA\_Questions-Answers\_2015.txt](Media:_IA_Answers_2015.txt "wikilink")
+Integrated Assignment:  [ IA\_Questions-Answers\_2015.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/htseq/integrated_assignment.txt)
 
 **Data set:** 
 
@@ -223,11 +222,9 @@ Day 2
 [HT-Biology2015\_Module5.ppt](https://bioinformatics.ca/htbiology2015module5pptx)  
 [HT-Biology2015\_Module5.pmp4](https://bioinformatics.ca/htbiology2015module5mp4)  
 
-<img src="CornerPiece.gif" title="CornerPiece.gif" alt="CornerPiece.gif" width="400" />
-
 **Lab Practical:**
 
- [Lab directions](Genome_Variation_Lab_2015 "wikilink")
+ [Lab directions](http://bioinformatics-ca.github.io/informatics_for_high-throughput_data_sequencing_2016_module5_lab/")
 
 [VCF format](https://samtools.github.io/hts-specs/VCFv4.2.pdf)
 
@@ -260,7 +257,7 @@ You can download the data set from [here](http://www.hpc4health.ca/sites/default
 [HT-Biology2015\_Module6.ppt](https://bioinformatics.ca/htbiology2015module6pptx)  
 [HT-Biology2015\_Module6.mp4](https://bioinformatics.ca/htbiology2015module6mp4)  
 
- [Lab directions](HT-Biology_2015_Module_6_Lab "wikilink")
+ [Lab directions](http://bioinformatics-ca.github.io/high-throughput_sequencing_mod6_lab_2015/)
 
 **Data set:**
 
@@ -285,25 +282,25 @@ You can download the data set from [here](http://www.hpc4health.ca/sites/default
 
 **Lab Practical:**
 
-[HT-Biology2015\_Module7\_Lab.pdf](Media:HT-Biology2015_Module7_Lab.pdf‎‎ "wikilink")
+[HT-seq\_2015\_Module7\_Lab.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/htseq/HT-seq_2015_Module7_Lab.pdf)
 
 <b>Dataset for the Galaxy lab:</b>
 
-Under Get Data and Upload File in the URL box:
+In Galaxy, under Get Data and Upload File in the URL box:
 
 NA12878_CBW_chr1_R1.fastq.gz
-[http://cbwxx.entrydns.org/module2_3/NA12878_CBW_chr1_R1.fastq.gz](http://cbwxx.entrydns.org/module2_3/NA12878_CBW_chr1_R1.fastq.gz)
+[http://cbwxx.dyndns.info/module2/NA12878_CBW_chr1_R1.fastq.gz](http://cbwxx.dyndns.info/module2/NA12878_CBW_chr1_R1.fastq.gz)  
 NA12878_CBW_chr1_R2.fastq.gz
-[http://cbwxx.entrydns.org/module2_3/NA12878_CBW_chr1_R2.fastq.gz](http://cbwxx.entrydns.org/module2_3/NA12878_CBW_chr1_R2.fastq.gz)
+[http://cbwxx.dyndns.info/module2/NA12878_CBW_chr1_R2.fastq.gz](http://cbwxx.dyndns.info/module2/NA12878_CBW_chr1_R2.fastq.gz)  
 hg19_chr1.fa
-[http://cbwxx.entrydns.org/module7/hg19_chr1.fa](http://cbwxx.entrydns.org/module7/hg19_chr1.fa)
+[http://cbwxx.dyndns.info/module7/hg19_chr1.fa](http://cbwxx.dyndns.info/module7/hg19_chr1.fa)  
 dbSNP_135_chr1.vcf.gz
-[http://cbwxx.entrydns.org/module2_3/dbSNP_135_chr1.vcf.gz](http://cbwxx.entrydns.org/module2_3/dbSNP_135_chr1.vcf.gz)
+[http://cbwxx.dyndns.info/module2/dbSNP_135_chr1.vcf.gz](http://cbwxx.dyndns.info/module2/dbSNP_135_chr1.vcf.gz)  
 
 **Note:** xx is your student number.
 
-Galaxy workflow part 1 (cloud): [Galaxy-Workflow-CBW Galaxy lab part1 Alignment Variant calling.ga](Media:Galaxy-Workflow-CBW_Galaxy_lab_part1_Alignment_Variant_calling.ga "wikilink")
-Galaxy workflow part 2 (main instance): [Galaxy-Workflow-CBW Galaxy lab part2 VariantFiltration Annotation.ga](Media:Galaxy-Workflow-CBW_Galaxy_lab_part2_VariantFiltration_Annotation.ga "wikilink")
+Galaxy workflow part 1 (cloud): [Galaxy-Workflow-CBW Galaxy lab part1 Alignment Variant calling.ga](https://raw.githubusercontent.com/bioinformatics-ca/2015_workshops/master/htseq/Galaxy-Workflow-CBW_Galaxy_lab_part1_Alignment_Variant_calling.ga)
+Galaxy workflow part 2 (main instance): [Galaxy-Workflow-CBW Galaxy lab part2 VariantFiltration Annotation.ga](https://raw.githubusercontent.com/bioinformatics-ca/2015_workshops/master/htseq/Galaxy-Workflow-CBW_Galaxy_lab_part2_VariantFiltration_Annotation.ga)  
 
 **What you need for the lab:**
 
@@ -313,17 +310,14 @@ You will need to register for an account on Galaxy so that you can run tools in 
 
 **Galaxy Resources:**
 
--   [galaxyproject.org: Galaxy home page](http://galaxyproject.org)
--   [usegalaxy.org: main Galaxy public server](http://usegalaxy.org)
--   [getgalaxy.org: source for installing local Galaxy](http://getgalaxy.org)
--   [usegalaxy.org/cloud: use galaxy in the cloud](http://usegalaxy.org/cloud)
-
-<!-- -->
-
--   Example of a Galaxy pipeline (we used for an RNASeq lab last year. Save file as:[ Galaxy-Workflow-Module\_5\_workflow\_from\_Emilie\_Chautard\_and\_Francis.ga](Media:‎‎Galaxy-Workflow-Module_5_workflow_from_Emilie.ga "wikilink")
--   [Galaxy 101 worked example](https://main.g2.bx.psu.edu/u/aun1/p/galaxy101)
--   [Galaxy servers throughout the world](http://wiki.galaxyproject.org/PublicGalaxyServers)
--   [Published (read: Public) pages](https://main.g2.bx.psu.edu/page/list_published)
+-   [galaxyproject.org: Galaxy home page](http://galaxyproject.org)  
+-   [usegalaxy.org: main Galaxy public server](http://usegalaxy.org)  
+-   [getgalaxy.org: source for installing local Galaxy](http://getgalaxy.org)  
+-   [usegalaxy.org/cloud: use galaxy in the cloud](http://usegalaxy.org/cloud)  
+-   Example of a Galaxy pipeline (we used for an RNASeq lab last year. Save file as:[ Galaxy-Workflow-Module_5_workflow_from_Emilie_Chautard_and_Francis.ga](https://raw.githubusercontent.com/bioinformatics-ca/2015_workshops/master/htseq/Galaxy-Workflow-Module_5_workflow_from_Emilie.ga)   
+-   [Galaxy 101 worked example](https://main.g2.bx.psu.edu/u/aun1/p/galaxy101)  
+-   [Galaxy servers throughout the world](http://wiki.galaxyproject.org/PublicGalaxyServers)  
+-   [Published (read: Public) pages](https://main.g2.bx.psu.edu/page/list_published)  
 
 Day 3
 -----
@@ -342,9 +336,11 @@ Day 3
 
 **Lab practical:**
 
-Lab introduction slides: [HT-Biology2015\_Module8\_LabSlides.pdf](Media:HT-Biology2015_Module8_LabSlides.pdf "wikilink")
+Lab introduction slides: [HT-Biology2015\_Module8\_LabSlides.pdf](https://github.com/griffithlab/rnaseq_tutorial/wiki/LectureFiles/cbw/2015/RNASeq_Module1_Tutorial.pdf)
 
-Tutorial scripts: <https://github.com/griffithlab/rnaseq_tutorial/wiki/>
+Tutorial scripts: 
+
+[<http://www.rnaseq.wiki>](http://www.rnaseq.wiki) - [Module 1 Tutorial](https://github.com/griffithlab/rnaseq_tutorial/wiki/Installation)
 
 <hr>
 #### Module 9: RNA-seq alignment and visualization
@@ -360,9 +356,11 @@ Tutorial scripts: <https://github.com/griffithlab/rnaseq_tutorial/wiki/>
 
 **Lab practical:**
 
-Lab introduction slides: [HT-Biology2015\_Module9\_LabSlides.pdf](Media:HT-Biology2015_Module9_LabSlides.pdf "wikilink")
+Lab introduction slides: [HT-Biology2015\_Module9\_LabSlides.pdf](https://github.com/griffithlab/rnaseq_tutorial/wiki/LectureFiles/cbw/2015/RNASeq_Module2_Tutorial.pdf)
 
-Tutorial scripts: <https://github.com/griffithlab/rnaseq_tutorial/wiki/Adapter-Trim>
+Tutorial scripts: 
+
+[<http://www.rnaseq.wiki>](http://www.rnaseq.wiki) - [Module 2 Tutorial](https://github.com/griffithlab/rnaseq_tutorial/wiki/Adapter-Trim)
 
 <hr>
 #### Integrated Assignment - Day 3
@@ -370,10 +368,17 @@ Tutorial scripts: <https://github.com/griffithlab/rnaseq_tutorial/wiki/Adapter-T
 <font color="green">*Faculty: Fouad Yousif*</font>
 
 <https://github.com/griffithlab/rnaseq_tutorial/wiki/Integrated-Assignment>
-Paper for Integrated Assignment Day 3 - Recurrent chimeric RNAs enriched in human prostate cancer identified by deep sequencing [PMC3107329](Media:pnas.201100489.pdf "wikilink")
+Paper for Integrated Assignment Day 3 - Recurrent chimeric RNAs enriched in human prostate cancer identified by deep sequencing [PMC3107329](http://www.ncbi.nlm.nih.gov/pubmed/21571633)
 
-Assignment Text: [ HT-Biology2015\_IntegratedAssignment\_Day3.pdf](Media:_HT-Biology2015_IntegratedAssignment_Day3.pdf "wikilink")
-Assignment Answer Key: [HT-Biology2015\_IntegratedAssignment\_Day3\_AnswerKey.pdf](Media:HT-Biology2015_IntegratedAssignment_Day3_AnswerKey.pdf "wikilink")
+Assignment Text: 
+
+**Assignment Questions:**
+
+[Integrated Assignment](https://github.com/griffithlab/rnaseq_tutorial/wiki/Integrated-Assignment)
+
+**Answer Key:**
+
+[Integrated Assignment Answers](https://github.com/griffithlab/rnaseq_tutorial/wiki/Integrated-Assignment-Answers)
 
 <hr>
 Day 4
@@ -393,9 +398,11 @@ Day 4
 
 **Lab practical:**
 
-Lab introduction slides: [HT-Biology2015\_Module10\_LabSlides.pdf](Media:HT-Biology2015_Module10_LabSlides.pdf "wikilink")
+Lab introduction slides: [HT-Biology2015\_Module10\_LabSlides.pdf](https://github.com/griffithlab/rnaseq_tutorial/wiki/LectureFiles/cbw/2015/RNASeq_Module3_Tutorial.pdf)
 
-Tutorial Scripts: <https://github.com/griffithlab/rnaseq_tutorial/wiki/Expression>
+Tutorial Scripts: 
+
+[<http://www.rnaseq.wiki>](http://www.rnaseq.wiki) - [Module 3 Tutorial](https://github.com/griffithlab/rnaseq_tutorial/wiki/Expression)
 
 <hr>
 #### Module 11: Isoform discovery and alternative expression
@@ -411,18 +418,20 @@ Tutorial Scripts: <https://github.com/griffithlab/rnaseq_tutorial/wiki/Expressio
 
 **Lab practical:**
 
-Lab introduction slides: [HT-Biology2015\_Module11\_LabSlides.pdf](Media:HT-Biology2015_Module11_LabSlides.pdf "wikilink")
+Lab introduction slides: [HT-Biology2015\_Module11\_LabSlides.pdf](https://github.com/griffithlab/rnaseq_tutorial/wiki/LectureFiles/cbw/2015/RNASeq_Module4_Tutorial.pdf)
 
-Tutorial scripts: <https://github.com/griffithlab/rnaseq_tutorial/wiki/Reference-Guided-Transcript-Assembly>
+Tutorial scripts: 
+
+[<http://www.rnaseq.wiki>](http://www.rnaseq.wiki) - [Module 4 Tutorial](https://github.com/griffithlab/rnaseq_tutorial/wiki/Reference-Guided-Transcript-Assembly)
 
 <hr>
 #### Integrated Assignment - Day 4
 
 <font color="green">*Faculty: Fouad Yousif*</font>
 
-<https://github.com/griffithlab/rnaseq_tutorial/wiki/Integrated-Assignment>
-Assignment Text: [ HT-Biology2015\_IntegratedAssignment\_Day4.pdf](Media:_HT-Biology2015_IntegratedAssignment_Day3.pdf "wikilink")
-Assignment Answer Key: [HT-Biology2015\_IntegratedAssignment\_Day4\_AnswerKey.pdf](Media:HT-Biology2015_IntegratedAssignment_Day3_AnswerKey.pdf "wikilink")
+[Integrated Assignment](https://github.com/griffithlab/rnaseq_tutorial/wiki/Integrated-Assignment)
+
+Assignment Answer Key: [Integrated Assignment Answers](https://github.com/griffithlab/rnaseq_tutorial/wiki/Integrated-Assignment-Answers)
 
 <hr>
 ### Keeping Up-to-date with RNA-seq Analysis Developments
@@ -450,11 +459,11 @@ Day 5
 
 **Links:**
 
-* The Synergizer [1](http://llama.med.harvard.edu/synergizer/translate/) - identifier mapping
-* Ensembl BioMart [2](http://www.ensembl.org/biomart/index.html) - eukaryotic gene query system
-* g:Convert [3](http://biit.cs.ut.ee/gprofiler/gconvert.cgi)  - gene/transcript/protein identifier mapping 
-* Gene Ontology [4](http://www.geneontology.org/) - gene annotation
-* Cytoscape [5](http://www.cytoscape.org/) - network visualization and analysis
+* [The Synergizer](http://llama.med.harvard.edu/synergizer/translate/) - identifier mapping
+* [Ensembl BioMart(http://www.ensembl.org/index.html) - (in menu bar, select the BioMart tab) eukaryotic gene query system
+* [ID Conversion Tool: gConvert](http://biit.cs.ut.ee/gprofiler/gconvert.cgi)  - identifier mapping
+* [Gene Ontology](http://www.geneontology.org/) - gene annotation
+* [Cytoscape](http://www.cytoscape.org/) - network visualization and analysis
 
 <hr>
 ### Module 13: Finding over-represented pathways in gene lists
@@ -462,6 +471,7 @@ Day 5
 <font color="green">*Faculty: Quaid Morris*</font>
 
 **Lecture:**
+
 [HT-Biology2015\_Module13.pdf](https://bioinformatics.ca/htbiology2015module13pdf)
 [HT-Biology2015\_Module13.ppt](https://bioinformatics.ca/htbiology2015module13pptx)
 [HT-Biology2015\_Module13.mp4](https://bioinformatics.ca/htbiology2015module13mp4)
@@ -469,6 +479,7 @@ Day 5
 **Lab Practical:**
 
 <font color="green">*Faculty: Jüri Reimand*</font>
+
 [HT-Biology2015\_Module13\_Lab.pdf](Media:‎HT-Biology2015_Module13_Lab.pdf "wikilink")
 [HT-Biology2015\_Module13\_Lab.pptx](Media:‎HT-Biology2015_Module13_Lab.pptx "wikilink")
 
@@ -492,7 +503,7 @@ BaderLab tutorial for g:Profiler + Enrichment Map: [http://www.baderlab.o
 
 **Additional Links:**
 
-* ![txt.gif](txt.gif "fig:txt.gif")[Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources.pdf](Media:PMID19131956.pdf "wikilink")
+* [Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources.pdf](Media:PMID19131956.pdf "wikilink")
 * Comparison of enrichment tools [6](http://www.nature.com/nprot/journal/v4/n1/suppinfo/nprot.2008.211_S1.html)
 * ConceptGen [7](http://conceptgen.ncibi.org/core/conceptGen/index.jsp) - Enrichment Analysis for simple gene lists (Fisher's Exact Test)
 * GSEA [8](http://www.broad.mit.edu/gsea/) - Enrichment Analysis for ranked gene lists
