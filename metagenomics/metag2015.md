@@ -141,7 +141,7 @@ Day 2
 **Lecture:**
 
 [Metagenomics\_2015\_Module4\_Lecture.pdf](https://bioinformatics.ca/metagenomics2015module4pdf)  
-[Metagenomics\_2015\_Module4\_Lecture.ppt]https://bioinformatics.ca/metagenomics2015module4pptx)  
+[Metagenomics\_2015\_Module4\_Lecture.ppt](https://bioinformatics.ca/metagenomics2015module4pptx)  
 [Metagenomics\_2015\_Module4\_Lecture.mp4](https://bioinformatics.ca/metagenomics2015module4mp4)  
 
 **Lab Practical:**
@@ -218,22 +218,22 @@ Tips, tricks, and resources
 
 ### Data Sets from Entire Workshops
 
-* [Module2 Data](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/markergenes.tar.gz)
-* [Integrated Assignment - Day 1 Data](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/integrated_assignment_day1.tar.gz)
-* [Module3 & Module 4 Data](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/hmp_metagenomics.tar.gz)
-* [Integrated Assignment - Day 2 Data](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/integrated_assignment_day2.tar.gz)
-* [Module 5 Data without blast database](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/metatranscriptomics.tar.gz)
+* [Module2 Data](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/markergenes.tar.gz)  
+* [Integrated Assignment - Day 1 Data](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/integrated_assignment_day1.tar.gz)  
+* [Module3 & Module 4 Data](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/hmp_metagenomics.tar.gz)  
+* [Integrated Assignment - Day 2 Data](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/integrated_assignment_day2.tar.gz)  
+* [Module 5 Data without blast database](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/metatranscriptomics.tar.gz)  
 
 ### Results from Instructor's Instance on Amazon
 
-* [Module2 mothur result](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/lab2_mothur.tar.gz)
-* [Module2 qiime result](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/lab2_qiime.tar.gz)
-* [Integrated Assignment - Day 1 result](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/assignment1.tar.gz)
-* [Module3 result](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/module3_result.tar.gz)
-* [Module4 result](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/module4_result.tar.gz)
-* [Bonus Module: PICRUSt result](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/module_picrust_result.tar.gz)
-* [Integrated Assignment - Day 2 result](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/assignment2.tar.gz)
-* [Module5 result](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/module5_result.tar.gz)
+* [Module2 mothur result](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/lab2_mothur.tar.gz)  
+* [Module2 qiime result](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/lab2_qiime.tar.gz)  
+* [Integrated Assignment - Day 1 result](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/assignment1.tar.gz)  
+* [Module3 result](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/module3_result.tar.gz)  
+* [Module4 result](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/module4_result.tar.gz)  
+* [Bonus Module: PICRUSt result](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/module_picrust_result.tar.gz)  
+* [Integrated Assignment - Day 2 result](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/assignment2.tar.gz)  
+* [Module5 result](http://www.hpc4health.ca/sites/default/files/cbw/2015/metagenomics/module5_result.tar.gz)  
 
 ### Tools with installation instructions on our Amazon server
 
