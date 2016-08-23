@@ -428,7 +428,7 @@ Navigate to the following location:
 
 You should see something like the following (FIGURE):
 
-<img src="igv-1a.png" width="500" />
+![igv-1a.png](https://github.com/bioinformatics-ca/2015_workshops/blob/master/htseq/500px-Igv-1a.png?raw=true)"
 
 Load the following BAM files in to IGV. These are the original BAM alignment files for the trio. Use "File->Load From URL":
 
@@ -440,7 +440,7 @@ Load the following BAM files in to IGV. These are the original BAM alignment fil
 
 You should see something like the following (FIGURE):
 
-<img src="igv-2.png" width="500" />
+![igv-2.png](https://github.com/bioinformatics-ca/2015_workshops/blob/master/htseq/500px-Igv-2.png?raw=true)"
 
 The above SVs were "validated" by comparing the SVs predicted by LUMPY with sequencing data from the PacBio and Illumina Moleculo technologies. The idea is that these are distinct sequencing technologies (strategies) with their own error modalities. If we see evidence for SVs from these technologies at the same loci as predicted by LUMPY, it is very unlikely that they are false SV predictions. Let's load the Moleculo alignments for NA12878.
 
@@ -450,15 +450,15 @@ The above SVs were "validated" by comparing the SVs predicted by LUMPY with sequ
 
 You should see something like the following (FIGURE):
 
-<img src="igv-3.png" width="500" />
+![igv-3.png](https://github.com/bioinformatics-ca/2015_workshops/blob/master/htseq/500px-Igv-3.png?raw=true)"
 
 Now, we need to configure IGV such that we can more clearly see the alignments that support the SV prediction. First we must make sure that the alignments are colored by insert size and orientation. For each of the BAM tracks, right-click on the track and select the following:
 
-<img src="igv-4.png" width="500" />
+![igv-4.png](https://github.com/bioinformatics-ca/2015_workshops/blob/master/htseq/500px-Igv-4.png?raw=true)"
 
 Next, we want to set the size range of the expected "concordant" alignments. Repeat for each alignment track.
 
-<img src="igv-5.png" width="500" />
+![igv-5.png](https://github.com/bioinformatics-ca/2015_workshops/blob/master/htseq/500px-Igv-5.png?raw=true)"
 
 Explore the SVs
 ===============
