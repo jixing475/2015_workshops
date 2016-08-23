@@ -208,9 +208,9 @@ After the workshop: You can download the data set from [here](http://www.hpc4hea
 
 **Programs used:**
 
-* [GATK](http://www.broadinstitute.org/gsa/wiki/index.php/The_Genome_Analysis_Toolkit)
-* [snpEff](http://snpeff.sourceforge.net/)
-* [IGV](http://www.broadinstitute.org/igv/)
+* [GATK](http://www.broadinstitute.org/gsa/wiki/index.php/The_Genome_Analysis_Toolkit)  
+* [snpEff](http://snpeff.sourceforge.net/)  
+* [IGV](http://www.broadinstitute.org/igv/)  
 
 <hr>
 ### Module 6: Structural variation calling
@@ -233,8 +233,8 @@ After the workshop: You can download the data set from [here](http://www.hpc4hea
 
 **Programs used:**
 
-* [Lumpy-SV](https://github.com/arq5x/lumpy-sv)
-* [IGV](http://www.broadinstitute.org/igv/)
+* [Lumpy-SV](https://github.com/arq5x/lumpy-sv)  
+* [IGV](http://www.broadinstitute.org/igv/)  
 
 <hr>
 ### Module 7: Bringing it all Together: Galaxy
@@ -266,8 +266,8 @@ dbSNP_135_chr1.vcf.gz
 
 **Note:** xx is your student number.
 
-Galaxy workflow part 1 (cloud): [Galaxy-Workflow-CBW Galaxy lab part1 Alignment Variant calling.ga](https://raw.githubusercontent.com/bioinformatics-ca/2015_workshops/master/htseq/Galaxy-Workflow-CBW_Galaxy_lab_part1_Alignment_Variant_calling.ga)
-Galaxy workflow part 2 (main instance): [Galaxy-Workflow-CBW Galaxy lab part2 VariantFiltration Annotation.ga](https://raw.githubusercontent.com/bioinformatics-ca/2015_workshops/master/htseq/Galaxy-Workflow-CBW_Galaxy_lab_part2_VariantFiltration_Annotation.ga)
+Galaxy workflow part 1 (cloud): [Galaxy-Workflow-CBW Galaxy lab part1 Alignment Variant calling.ga](https://raw.githubusercontent.com/bioinformatics-ca/2015_workshops/master/htseq/Galaxy-Workflow-CBW_Galaxy_lab_part1_Alignment_Variant_calling.ga)  
+Galaxy workflow part 2 (main instance): [Galaxy-Workflow-CBW Galaxy lab part2 VariantFiltration Annotation.ga](https://raw.githubusercontent.com/bioinformatics-ca/2015_workshops/master/htseq/Galaxy-Workflow-CBW_Galaxy_lab_part2_VariantFiltration_Annotation.ga)  
 
 **What you need for the lab:**
 
@@ -277,30 +277,30 @@ You will need an account on Galaxy so that you can run tools in their environmen
 
 **Galaxy Resources:**
 
-* [galaxyproject.org: Galaxy home page](http://galaxyproject.org)
-* [usegalaxy.org: main Galaxy public server](http://usegalaxy.org)
-* [getgalaxy.org: source for installing local Galaxy](http://getgalaxy.org)
-* [usegalaxy.org/cloud: use galaxy in the cloud](http://usegalaxy.org/cloud)
-* Example of a Galaxy pipeline (we used for an RNASeq lab last year. Save file as:[ Galaxy-Workflow-Module_5_workflow_from_Emilie_Chautard_and_Francis.ga](https://raw.githubusercontent.com/bioinformatics-ca/2015_workshops/master/htseq/Galaxy-Workflow-Module_5_workflow_from_Emilie.ga) 
-* [Galaxy 101 worked example](https://main.g2.bx.psu.edu/u/aun1/p/galaxy101)
-* [Galaxy servers throughout the world](http://wiki.galaxyproject.org/PublicGalaxyServers)
-* [Published (read: Public) pages](https://main.g2.bx.psu.edu/page/list_published)
+* [galaxyproject.org: Galaxy home page](http://galaxyproject.org)  
+* [usegalaxy.org: main Galaxy public server](http://usegalaxy.org)  
+* [getgalaxy.org: source for installing local Galaxy](http://getgalaxy.org)  
+* [usegalaxy.org/cloud: use galaxy in the cloud](http://usegalaxy.org/cloud)  
+* Example of a Galaxy pipeline (we used for an RNASeq lab last year. Save file as:[ Galaxy-Workflow-Module_5_workflow_from_Emilie_Chautard_and_Francis.ga](https://raw.githubusercontent.com/bioinformatics-ca/2015_workshops/master/htseq/Galaxy-Workflow-Module_5_workflow_from_Emilie.ga)   
+* [Galaxy 101 worked example](https://main.g2.bx.psu.edu/u/aun1/p/galaxy101)  
+* [Galaxy servers throughout the world](http://wiki.galaxyproject.org/PublicGalaxyServers)  
+* [Published (read: Public) pages](https://main.g2.bx.psu.edu/page/list_published)  
 
 Tips, tricks, and resources
 ---------------------------
 
 ### Data Sets from Entire Workshops
 
-* [Reference Genome for HT-seq](http://www.hpc4health.ca/sites/default/files/cbw/2015/HT_data/module2_reference.zip)
-* [Module 2/7/HT-seq Integrated Data](http://www.hpc4health.ca/sites/default/files/cbw/2015/HT_data/module2_data.zip)
-* [Module 5 Data](http://www.hpc4health.ca/sites/default/files/cbw/2015/HT_data/module5_data.zip)
-* [Module 6 Data](http://www.hpc4health.ca/sites/default/files/cbw/2015/HT_data/module6_data.zip)
+* [Reference Genome for HT-seq](http://www.hpc4health.ca/sites/default/files/cbw/2015/HT_data/module2_reference.zip)  
+* [Module 2/7/HT-seq Integrated Data](http://www.hpc4health.ca/sites/default/files/cbw/2015/HT_data/module2_data.zip)  
+* [Module 5 Data](http://www.hpc4health.ca/sites/default/files/cbw/2015/HT_data/module5_data.zip)  
+* [Module 6 Data](http://www.hpc4health.ca/sites/default/files/cbw/2015/HT_data/module6_data.zip)  
 
 ### Results from Instructor's Instance on Amazon
 
-* [Module 2 result](http://www.hpc4health.ca/sites/default/files/cbw/2015/HT_data/module2_result.tar.gz)
-* [Module 5 result](http://www.hpc4health.ca/sites/default/files/cbw/2015/HT_data/module5_result.tar.gz)
-* [Module 6 result](http://www.hpc4health.ca/sites/default/files/cbw/2015/HT_data/module6_result.tar.gz)
+* [Module 2 result](http://www.hpc4health.ca/sites/default/files/cbw/2015/HT_data/module2_result.tar.gz)  
+* [Module 5 result](http://www.hpc4health.ca/sites/default/files/cbw/2015/HT_data/module5_result.tar.gz)  
+* [Module 6 result](http://www.hpc4health.ca/sites/default/files/cbw/2015/HT_data/module6_result.tar.gz)  
 
 ### Tools with installation instructions on our Amazon server
 
