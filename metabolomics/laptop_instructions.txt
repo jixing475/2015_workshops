@@ -1,0 +1,14 @@
+Computer Requirements:
+Computers need to be running Windows 7/Vista/Xp or Mac OS X 10.5 (or higher) or Linux.
+Computers need to be able to support wireless wifi connections.
+Computers need to have the capacity to accept a USB key.
+Users should also try to bring a mouse (wired or wireless).
+
+Programs to Install:
+1) A spreadsheet program such as Microsoft Office (Windows/Mac), Numbers (Mac) or OpenOffice (https://www.openoffice.org/download/index.html) (all OS)
+2) A file decompression tool. For Windows/PC – 7zip (http://www.7-zip.org/). For Linux – gzip 1.3.3 (http://www.gzip.org). For Mac – already there. 
+3) A robust internet browser such as Firefox or Safari (Internet Explorer and Chrome are not recommended because of Java issues) with the latest Java installed and enabled. To test if your browser is ready, direct the browser to the following address: https://java.com/en/download/installed.jsp 
+
+If the test failed, follow the instructions to install Java. 
+
+4) A PDF viewer (Adobe Acrobat or equivalent).
