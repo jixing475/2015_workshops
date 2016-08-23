@@ -1,0 +1,155 @@
+{
+    "a_galaxy_workflow": "true", 
+    "annotation": "", 
+    "format-version": "0.1", 
+    "name": "Workflow constructed from history 'Galaxy_lab_part2'", 
+    "steps": {
+        "0": {
+            "annotation": "", 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": " your vcf file"
+                }
+            ], 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 199.9516944885254, 
+                "top": 199.96591186523438
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \" your vcf file\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": []
+        }, 
+        "1": {
+            "annotation": "", 
+            "id": 1, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "your reference genome"
+                }
+            ], 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 199.9516944885254, 
+                "top": 319.9659118652344
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"your reference genome\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": []
+        }, 
+        "2": {
+            "annotation": "", 
+            "id": 2, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "your dbSNP"
+                }
+            ], 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 206.9374885559082, 
+                "top": 445.9573669433594
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"your dbSNP\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": []
+        }, 
+        "3": {
+            "annotation": "", 
+            "id": 3, 
+            "input_connections": {
+                "reference_source|input_variant": {
+                    "id": 0, 
+                    "output_name": "output"
+                }, 
+                "reference_source|ref_file": {
+                    "id": 1, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Variant Filtration", 
+            "outputs": [
+                {
+                    "name": "output_vcf", 
+                    "type": "vcf"
+                }, 
+                {
+                    "name": "output_log", 
+                    "type": "txt"
+                }
+            ], 
+            "position": {
+                "left": 419.9516792297363, 
+                "top": 199.96591186523438
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/variant_filtration/gatk_variant_filtration/0.0.5", 
+            "tool_state": "{\"__page__\": 0, \"__rerun_remap_job_id__\": null, \"gatk_param_type\": \"{\\\"gatk_param_type_selector\\\": \\\"basic\\\", \\\"__current_case__\\\": 0}\", \"mask_rod_bind_type\": \"{\\\"mask_rod_bind_type_selector\\\": \\\"exclude_mask\\\", \\\"__current_case__\\\": 0}\", \"cluster_snp_type\": \"{\\\"cluster_snp_type_selector\\\": \\\"do_not_cluster_snp\\\", \\\"__current_case__\\\": 0}\", \"missing_values_in_expressions_should_evaluate_as_failing\": \"\\\"False\\\"\", \"variant_filters\": \"[{\\\"__index__\\\": 0, \\\"filter_expression\\\": \\\"QD < 2.0\\\", \\\"is_genotype_filter\\\": \\\"False\\\", \\\"filter_name\\\": \\\"QDFilter\\\"}, {\\\"__index__\\\": 1, \\\"filter_expression\\\": \\\"FS > 200.0\\\", \\\"is_genotype_filter\\\": \\\"False\\\", \\\"filter_name\\\": \\\"FSFilter\\\"}, {\\\"__index__\\\": 2, \\\"filter_expression\\\": \\\"MQ < 40.0\\\", \\\"is_genotype_filter\\\": \\\"False\\\", \\\"filter_name\\\": \\\"MQFilter\\\"}]\", \"reference_source\": \"{\\\"ref_file\\\": null, \\\"reference_source_selector\\\": \\\"history\\\", \\\"input_variant\\\": null, \\\"__current_case__\\\": 1}\", \"chromInfo\": \"\\\"/galaxy-repl/localdata/chrom/?.len\\\"\"}", 
+            "tool_version": "0.0.5", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "4": {
+            "annotation": "", 
+            "id": 4, 
+            "input_connections": {
+                "dbsnp_rod_bind_type|dbsnp_input_rod": {
+                    "id": 2, 
+                    "output_name": "output"
+                }, 
+                "reference_source|input_variant": {
+                    "id": 3, 
+                    "output_name": "output_vcf"
+                }, 
+                "reference_source|ref_file": {
+                    "id": 1, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Variant Annotator", 
+            "outputs": [
+                {
+                    "name": "output_vcf", 
+                    "type": "vcf"
+                }, 
+                {
+                    "name": "output_log", 
+                    "type": "txt"
+                }
+            ], 
+            "position": {
+                "left": 639.9659004211426, 
+                "top": 199.96591186523438
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/variant_annotator/gatk_variant_annotator/0.0.5", 
+            "tool_state": "{\"__page__\": 0, \"comp_rod_bind\": \"[]\", \"gatk_param_type\": \"{\\\"gatk_param_type_selector\\\": \\\"basic\\\", \\\"__current_case__\\\": 0}\", \"exclude_annotations\": \"{\\\"__class__\\\": \\\"UnvalidatedValue\\\", \\\"value\\\": null}\", \"snpEff_rod_bind_type\": \"{\\\"snpEff_rod_bind_type_selector\\\": \\\"exclude_snpEff\\\", \\\"__current_case__\\\": 0}\", \"mendel_violation_genotype_quality_threshold\": \"\\\"0.0\\\"\", \"dbsnp_rod_bind_type\": \"{\\\"dbsnp_rod_bind_type_selector\\\": \\\"set_dbsnp\\\", \\\"dbsnp_input_rod\\\": null, \\\"__current_case__\\\": 1, \\\"dbsnp_rod_name\\\": \\\"dbsnp\\\"}\", \"additional_annotations\": \"[]\", \"resource_rod_bind\": \"[]\", \"__rerun_remap_job_id__\": null, \"annotations_type\": \"{\\\"annotations_type_selector\\\": \\\"choose\\\", \\\"__current_case__\\\": 1, \\\"annotations\\\": {\\\"__class__\\\": \\\"UnvalidatedValue\\\", \\\"value\\\": null}}\", \"reference_source\": \"{\\\"ref_file\\\": null, \\\"input_variant_bti\\\": \\\"True\\\", \\\"input_variant\\\": null, \\\"__current_case__\\\": 1, \\\"reference_source_selector\\\": \\\"history\\\", \\\"input_bam\\\": null}\", \"expressions\": \"[]\", \"annotation_group\": \"null\", \"chromInfo\": \"\\\"/galaxy-repl/localdata/chrom/?.len\\\"\", \"family_string\": \"\\\"\\\"\"}", 
+            "tool_version": "0.0.5", 
+            "type": "tool", 
+            "user_outputs": []
+        }
+    }
+}
