@@ -60,7 +60,7 @@ Day 1
 
 **Lab Practical:**
 
-[Metagenomics Databases Lab practical](Media:RobTutorial.pdf "wikilink")
+[Metagenomics Databases Lab practical](https://github.com/bioinformatics-ca/2015_workshops/raw/master/metagenomics/MetaG_mod1_lab_2015.pdf)
 
 **Papers:**
 
@@ -83,7 +83,7 @@ Day 1
 
 **Lab Practical:**
 
-[Marker Gene-based Lab practical](Marker_Gene-based_Lab "wikilink")
+[Marker Gene-based Lab practical](http://bioinformatics-ca.github.io/analysis_of_metagenomic_data_mod2_lab_2015/)
 
 **Data set:**
 
@@ -92,9 +92,8 @@ Day 1
 **Programs used:**
 
 * [Mothur](http://www.mothur.org)
-
-*  [QIIME](http://www.qiime.org)
-*  [FIGTREE](http://tree.bio.ed.ac.uk/software/figtree/)
+* [QIIME](http://www.qiime.org)
+* [FIGTREE](http://tree.bio.ed.ac.uk/software/figtree/)
 
 <hr>
 ### Integrated Assignment - Day 1
@@ -103,8 +102,8 @@ Day 1
 
 **Lab Practical:**
 
-[Metagenomics Integrated Assignment](Metagenomics_Integrated_Assignment "wikilink")
-[Metagenomics IntegratedAssignment AnswerKey](Metagenomics_IntegratedAssignment_AnswerKey "wikilink")
+[Metagenomics Integrated Assignment](http://bioinformatics-ca.github.io/analysis_of_metagenomic_data_integrated_assignment_2015/)
+[Metagenomics IntegratedAssignment AnswerKey](https://raw.githubusercontent.com/bioinformatics-ca/2015_workshops/master/metagenomics/integrated_assignment_day1_answers.txt)
 
 <hr>
 Day 2
@@ -121,8 +120,8 @@ Day 2
 
 **Lab Practical:**
 
-[Metagenomics Taxonomic Composition Lab Practical](Metagenomics_Taxonomic_Composition_Lab "wikilink")
-[Metagenomics Taxonomic Composition Lab Practical Answers](Metagenomics_Taxonomic_Composition_Lab_Answers "wikilink")
+[Metagenomics Taxonomic Composition Lab Practical](http://bioinformatics-ca.github.io/analysis_of_metagenomic_data_mod3_lab_2015/)  
+[Metagenomics Taxonomic Composition Lab Practical Answers](https://github.com/bioinformatics-ca/2015_workshops/raw/master/metagenomics/MetaG_mod3_answers.txt)
 
 **Data set:**
 
@@ -130,10 +129,9 @@ Day 2
 
 **Programs used:**
 
-* [MetaPhlan2](http://bitbucket.org/biobakery/metaphlan2)
-
-* [STAMP](http://kiwi.cs.dal.ca/Software/STAMP)
-* [Microbiome Helper](http://github.com/mlangill/microbiome_helper)
+* [MetaPhlan2](http://bitbucket.org/biobakery/metaphlan2)  
+* [STAMP](http://kiwi.cs.dal.ca/Software/STAMP)  
+* [Microbiome Helper](http://github.com/mlangill/microbiome_helper)  
 
 <hr>
 ### Module 4: Metagenomic Functional Composition
@@ -148,9 +146,9 @@ Day 2
 
 **Lab Practical:**
 
-[Metagenomics Functional Composition Lab practical](Metagenomics_Functional_Composition_Lab "wikilink")
+[Metagenomics Functional Composition Lab practical](http://bioinformatics-ca.github.io/analysis_of_metagenomic_data_mod4_lab_2015/)
 
-[Metagenomics Functional Composition Lab Answers](Metagenomics_Functional_Composition_Lab_Answers "wikilink")
+[Metagenomics Functional Composition Lab Answers](https://github.com/bioinformatics-ca/2015_workshops/blob/master/metagenomics/MetaG_mod4_answers.md)
 
 **Data set:**
 
@@ -169,11 +167,11 @@ Day 2
 
 **Lecture:**
 
-[Metagenomics\_2015\_Bonus\_PICRUSt\_Lecture.pdf](Media:Metagenomics_2015_Bonus_PICRUSt_Lecture.pdf "wikilink")
+[Metagenomics\_2015\_Bonus\_PICRUSt\_Lecture.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/metagenomics/Metagenomics_2015_Bonus_PICRUSt_Lecture.pdf)
 
 **Lab Practical:**
 
-[PICRUSt Lab](PICRUSt_Lab "wikilink")
+[PICRUSt Lab](http://bioinformatics-ca.github.io/analysis_of_metagenomic_data_PICRUSt_lab_2015/)
 
 <hr>
 ### Integrated Assignment - Day 2
@@ -182,8 +180,8 @@ Day 2
 
 **Lab Practical:**
 
-[Metagenomics Integrated Assignment](Metagenomics_Integrated_Assignment "wikilink")
-[Integrated assignment Day 2 Answer Key](Media:Cbw-workshop-assignment-key.pdf "wikilink")
+[Metagenomics Integrated Assignment](http://bioinformatics-ca.github.io/analysis_of_metagenomic_data_integrated_assignment_2015/)
+[Integrated assignment Day 2 Answer Key](https://github.com/bioinformatics-ca/2015_workshops/raw/master/metagenomics/Cbw-workshop-assignment-key.pdf")
 
 <hr>
 Day 3
@@ -201,7 +199,7 @@ Day 3
 
 **Lab Practical:**
 
-[Metatranscriptomics Lab practical](Metatranscriptomics_Lab "wikilink")
+[Metatranscriptomics Lab practical](http://bioinformatics-ca.github.io/analysis_of_metagenomic_data_module6_lab_2016/)
 
 <hr>
 ### Module 6: Biomarker Selection
