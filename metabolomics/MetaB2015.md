@@ -10,7 +10,7 @@ image: CBW_cancerDNA_icon-16.jpg
 Laptop Setup Instructions
 -------------------------
 
-Instructions for setting up your laptop can be found here: [Laptop Setup Instructions\_Metabolomics](Laptop_Setup_Instructions_Metabolomics "wikilink")
+Instructions for setting up your laptop can be found here: [Laptop Setup Instructions](https://raw.githubusercontent.com/bioinformatics-ca/2015_workshops/master/metabolomics/laptop_instructions.txt)
 
 Pre-Workshop Readings
 ---------------------
@@ -56,7 +56,7 @@ Day 1
 
 *<font color="green">Faculty: Jeff Xia</font>*
 
-[Metabolomics2015\_Module2\_lab.pdf](Media:Metabolomics2015_Module2_Lab.pdf "wikilink")
+[Metabolomics2015\_Module2\_lab.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/metabolomics/Metabolomics2015_Module2_Lab.pdf)
 
 **Break-out Groups:**
 
@@ -79,15 +79,15 @@ Sub-groups for NMR - Students 9-10: Use Data Set#5
 
 <b>NMR</b>
 
-* [CBW\_NMR\_Data.zip](Media:CBW_NMR_Data.zip "wikilink")
-* [CBW\_NMR\_result.zip](Media:CBW_NMR_result.zip "wikilink")
+* [CBW\_NMR\_Data.zip](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/CBW_NMR_Data.zip)
+* [CBW\_NMR\_result.zip](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/CBW_NMR_result.zip)
 
   
 <b>GC-MS</b>
 
-* [Example\_Jul0914\_mzXML.zip](Media:Example_Jul0914_mzXML.zip "wikilink")
-* [Example\_Jul1114\_mzXML.zip](Media:Example_Jul1114_mzXML.zip "wikilink")
-* [CBW\_GCMS\_result.zip](Media:CBW_GCMS_result.zip "wikilink")
+* [Example\_Jul0914\_mzXML.zip](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/Example_Jul0914_mzXML.zip)
+* [Example\_Jul1114\_mzXML.zip](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/Example_Jul1114_mzXML.zip)
+* [CBW\_GCMS\_result.zip](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/CBW_GCMS_result.zip)
 
 <!-- -->
 
@@ -100,9 +100,9 @@ Description: a subset of 12 samples from a study ["Assignment of Endogenous Subs
 
 Group WT: wild type; Group KO: knock out. Platform: HPLC Single Quad.
 
-* [WT.zip](Media:WT.zip "wikilink")
-* [KO.zip](Media:KO.zip "wikilink")
-* [CBW\_FaahKO\_results.zip](Media:FaahKO_results.zip "wikilink")
+* [WT.zip](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/WT.zip)
+* [KO.zip](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/KO.zip)
+* [CBW\_FaahKO\_results.zip](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/FaahKO_results.zip)
 
 Large test datasets: (<font style="background:yellow">warning: may take ~2 hours to upload this dataset to the XCMS Online server!</font>)
 
@@ -110,9 +110,9 @@ Description: a subset of 38 samples from a study ["Pregnancy-Induced Metabolic P
 
 Group A: 13-16 weeks; Group B: 9-12 weeks. Platform: HPLC Orbitrap
 
-* [GroupA.zip](Media:GroupA.zip "wikilink")
-* [GroupB.zip](Media:GroupB.zip "wikilink")
-* [CBW\_XCMS\_results.zip](Media:XCMS_results.zip "wikilink")
+* [GroupA.zip](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/GroupA.zip)
+* [GroupB.zip](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/GroupB.zip)
+* [CBW\_XCMS\_results.zip](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/XCMS_results.zip)
 
 **Links:**
 
@@ -146,24 +146,6 @@ Instructions for Uploading files to wiki:
 - Click "Edit"
 - Paste link
 - Click "Save Page"
-
-Place your data file here:
-
-* Bayesil Set 5: [http://bioinformatics.ca/workshop_wiki/index.php/File:Bayesil_report_2015-06-15_set-5.csv](http://bioinformatics.ca/workshop_wiki/index.php/File:Bayesil_report_2015-06-15_set-5.csv)
-* XCMS Pairwise: [http://bioinformatics.ca/workshop_wiki/index.php/File:XCMS-Results.zip](http://bioinformatics.ca/workshop_wiki/index.php/File:XCMS-Results.zip)
-* Can also view XCMS results directly at [https://xcmsonline.scripps.edu/](https://xcmsonline.scripps.edu/) under "Public Shares" : Job number is 1063080 (should be at the top of the list)
-* Bayesil Set X: [http://bioinformatics.ca/workshop_wiki/index.php/File:Bayesil_quantities_2015-06-15LaskySu.csv](http://bioinformatics.ca/workshop_wiki/index.php/File:Bayesil_quantities_2015-06-15LaskySu.csv)
-* Bayesil Set 2: [http://bioinformatics.ca/workshop_wiki/index.php/File:Bayesil_report_2015-06-15_set-2.csv](http://bioinformatics.ca/workshop_wiki/index.php/File:Bayesil_report_2015-06-15_set-2.csv)
-* Bayesil Set 3: [http://bioinformatics.ca/workshop_wiki/index.php/File:Bayesil_report_2015-06-15_set3.csv](http://bioinformatics.ca/workshop_wiki/index.php/File:Bayesil_report_2015-06-15_set3.csv)
-* Bayesil Set 4A: [http://bioinformatics.ca/workshop_wiki/index.php/File:Bayesil_set-4.csv](http://bioinformatics.ca/workshop_wiki/index.php/File:Bayesil_set-4.csv)
-* Bayesil Set 4B: [http://bioinformatics.ca/workshop_wiki/index.php/File:Bayesil_report_2015-06-15_No8_set4.csv](http://bioinformatics.ca/workshop_wiki/index.php/File:Bayesil_report_2015-06-15_No8_set4.csv)
-* Bayesil Set 5: [http://bioinformatics.ca/workshop_wiki/index.php/File:Bayesil_report_2015-06-15_SET_5.csv](http://bioinformatics.ca/workshop_wiki/index.php/File:Bayesil_report_2015-06-15_SET_5.csv)
-* Bayesil Set 1: [http://bioinformatics.ca/workshop_wiki/index.php/File:CBW_NMR_Set_1-bayesil_report_2015-06-15.csv#filehistory](http://bioinformatics.ca/workshop_wiki/index.php/File:CBW_NMR_Set_1-bayesil_report_2015-06-15.csv#filehistory)
-* XCMS Piarwise Tanvir: [http://bioinformatics.ca/workshop_wiki/index.php/File:tanvir-xcms-results.zip](http://bioinformatics.ca/workshop_wiki/index.php/File:tanvir-xcms-results.zip)
-* XCMS No.25:    [http://bioinformatics.ca/workshop_wiki/index.php/File:Yichen25-XCMS_.zip](http://bioinformatics.ca/workshop_wiki/index.php/File:Yichen25-XCMS_.zip)
-GCMS dataset 1: [http://bioinformatics.ca/workshop_wiki/index.php/File:McGuirk_S_Jul0914_DONE.csv](http://bioinformatics.ca/workshop_wiki/index.php/File:McGuirk_S_Jul0914_DONE.csv)
-GCMS dataset 2: [http://bioinformatics.ca/workshop_wiki/index.php/File:McGuirk_S_Jul1114_DONE.csv](http://bioinformatics.ca/workshop_wiki/index.php/File:McGuirk_S_Jul1114_DONE.csv)
-LCMS small dataset: [http://bioinformatics.ca/workshop_wiki/index.php/File:LCMS_small_McGuirk_S_results.zip](http://bioinformatics.ca/workshop_wiki/index.php/File:LCMS_small_McGuirk_S_results.zip)
 
 <hr>
 ### Module 3: Databases for Chemical, Spectral and bIological Data
@@ -225,7 +207,7 @@ Day 2
 
 *<font color="green">Faculty: Jeff Xia</font>*
 
-[Metabolomics2015\_Module5\_Lab.pdf](Media:Metabolomics2015_Module5_Lab.pdf "wikilink")
+[Metabolomics2015\_Module5\_Lab.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/metabolomics/Metabolomics2015_Module5_Lab.pdf)
 
 **MetaboAnalyst Websites:** We have set up multiple mirror sites of the server. Please use your student \# (on the front of your name badge) to access the mirror for your student \#:
 
@@ -239,12 +221,12 @@ Day 2
 -- It is a data table separated by comma (.csv) or tab (.txt);
 -- Three types of labels: feature names, sample names and group labels (must directly follow sample names);
 -- All measurements should be numerical values (empty for missing values);
--- For details and screenshot instructions: [1](http://www.metaboanalyst.ca/faces/docs/Format.xhtml)
+-- For details and screenshot instructions: [here](http://www.metaboanalyst.ca/faces/docs/Format.xhtml)
 
-* [CBW_NMR_result.csv](Media:CBW_NMR_result.csv "wikilink") (Bayesil output - need to remove annotations lines starting with #, keep one type of ID - name/HMDB ID)
-* [CBW_GCMS_examples_cleaned_2015.csv](Media:CBW_GCMS_examples_cleaned_2015.csv "wikilink") (Auto-GCMS output - need to remove <LOD and NA values ) 
-* [FAAH_cleaned_metaboanalyst.csv](Media:FAAH_cleaned_metaboanalyst.csv "wikilink") (peak intensity table from XCMSonline - small LC-MS data)
-* [XCMS_cleaned_metaboanalyst.csv](Media:XCMS_cleaned_metaboanalyst.csv "wikilink") (peak intensity table from XCMSonline - big LC-MS data)
+* [CBW_NMR_result.csv](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/CBW_NMR_result.csv) (Bayesil output - need to remove annotations lines starting with #, keep one type of ID - name/HMDB ID)
+* [CBW_GCMS_examples_cleaned_2015.csv](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/CBW_GCMS_examples_cleaned_2015.csv) (Auto-GCMS output - need to remove <LOD and NA values ) 
+* [FAAH_cleaned_metaboanalyst.csv](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/FAAH_cleaned_metaboanalyst.csv) (peak intensity table from XCMSonline - small LC-MS data)
+* [XCMS_cleaned_metaboanalyst.csv](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/data_sets/XCMS_cleaned_metaboanalyst.csv) (peak intensity table from XCMSonline - big LC-MS data)
 
 <hr>
 ### Module 6: Future of Metabolomics
