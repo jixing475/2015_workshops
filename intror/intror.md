@@ -11,7 +11,7 @@ image: CBW_cancerDNA_icon-16.jpg
 Laptop Setup Instructions
 -------------------------
 
-Instructions for setting up your laptop can be found here: [Laptop Setup Instructions\_Stats](Laptop_Setup_Instructions_Stats "wikilink")
+Instructions for setting up your laptop can be found here: [Laptop Setup Instructions](https://raw.githubusercontent.com/bioinformatics-ca/2015_workshops/master/intror/laptop_instructions.txt)
 
 <hr>
 
