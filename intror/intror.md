@@ -7,6 +7,7 @@ header2: Workshop pages for students
 image: CBW_cancerDNA_icon-16.jpg
 ---
 
+
 Laptop Setup Instructions
 -------------------------
 
@@ -34,7 +35,7 @@ Helpful Materials
 -----------------
 
 -   The [Introduction to **R** tutorial](http://steipe.biochemistry.utoronto.ca/abc/index.php/R_tutorial)
--   The [R command cheat sheet](Media:Short-refcard.pdf "wikilink")
+-   The [R command cheat sheet](../../resources/R_Short-refcard.pdf)
 
 <hr>
 Day 1
@@ -52,19 +53,20 @@ Day 1
 
 **Lecture:**
 
-[2015\_Intro\_to\_R.pdf](‎Media:2015_Intro_to_R.pdf "wikilink")
+[2015\_Intro\_to\_R.pdf](‎https://bioinformatics.ca/intror2015module1pdf)  
+[2015\_Intro\_to\_R.mp4](‎https://bioinformatics.ca/intror2015module1mp4)  
 
 **Scripts:**
 
-* [**R script template**](:Media:ScriptTemplate.txt "wikilink")
+* [**R script template**](https://raw.githubusercontent.com/bioinformatics-ca/bioinformatics-ca.github.io/master/2016_workshops/intror/ScriptTemplate.txt)
 
--   [**2015\_Intro\_Module\_1\_First\_steps.R**](:Media:2015_Intro_Module_1_First_steps.R "wikilink")
+-   [**2015\_Intro\_Module\_1\_First\_steps.R**](https://raw.githubusercontent.com/bioinformatics-ca/2015_workshops/master/intror/2015_Intro_Module_1_First_steps.R)
 
 **Data:**
 
-* [**Fig\_3-CharacteristicGenes.txt**](:Media:Fig_3-CharacteristicGenes.txt "wikilink")
+* [**Fig\_3-CharacteristicGenes.txt**](https://raw.githubusercontent.com/bioinformatics-ca/bioinformatics-ca.github.io/master/2016_workshops/intror/Fig_3-CharacteristicGenes.txt)
 
--   [**Supplementary data: Table\_S3.xls**](:Media:Table_S3.xls "wikilink")
+-   [**Supplementary data: Table\_S3.xls**](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/2016_workshops/intror/Table_S3.xls)
 
 **Practical:**
 
@@ -76,16 +78,16 @@ Day 1
 
 **Resources:**
 
-* [**Jaitin *et al.* (2014) Single-Cell RNA-seq defines cell types (pdf)‎**](:Media:Jaitin_2014-SingleCellRNAseq.pdf "wikilink")
+* [**Jaitin *et al.* (2014) Single-Cell RNA-seq defines cell types‎**](http://www.ncbi.nlm.nih.gov/pubmed/24531970)
 
 *Help*ful links  
 
--   The **R** help mailing list: <https://stat.ethz.ch/mailman/listinfo/r-help>
--   **Rseek**: the specialized search engine for **R** topics: <http://rseek.org/>
--   **R** questions on stackoverflow: <http://stackoverflow.com/questions/tagged/r>
--   The Comprehensive **R** Archive Network **CRAN**: <http://cran.r-project.org/>
--   The **CRAN** task-view collection: <http://cran.r-project.org/web/views/>
--   **Bioconductor** task views: <http://www.bioconductor.org/packages/release/BiocViews.html>
+* [The **R** help mailing list](https://stat.ethz.ch/mailman/listinfo/r-help)
+* [**Rseek**: the specialized search engine for **R** topics](http://rseek.org/)
+* [**R** questions on stackoverflow](http://stackoverflow.com/questions/tagged/r)
+* [The Comprehensive **R** Archive Network **CRAN**](http://cran.r-project.org/)
+* [The **CRAN** task-view collection](http://cran.r-project.org/web/views/)
+* [**Bioconductor** task views](http://www.bioconductor.org/packages/release/BiocViews.html)
 
 <hr>
 #### Module 2: Programming Basics
@@ -101,17 +103,16 @@ Day 1
 
 **Scripts:**
 
-* ['''2015\_Intro\_Module\_2-3.R '''](:Media:2015_Intro_Module_2-3.R "wikilink")
+* [Scripts](http://bioinformatics-ca.github.io/intror_module2-3_2016/)
 
 **Resources:**
 
-* [**Weissgerber *et al.* (2015) Beyond Bar and Line-Graphs ... (pdf)‎**](:Media:Weissgerber_(2015)_BeyondBarcharts.pdf "wikilink")
+* [Beyond Bar and Line-Graphs](http://www.ncbi.nlm.nih.gov/pubmed/25901488)
 
 **Practical:**
 
-* **Biological identifier conversion**: <http://biodbnet.abcc.ncifcrf.gov/>
-
--   **Gene co-expression database**: <http://coxpresdb.jp/>
+  * [Biological identifier conversion]( http://biodbnet.abcc.ncifcrf.gov/)
+  * [Gene co-expression database](http://coxpresdb.jp/) 
 
 <hr>
 #### Code Scratchpad
