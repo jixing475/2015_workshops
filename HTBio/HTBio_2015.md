@@ -179,7 +179,7 @@ You can download the data set from [here](http://www.hpc4health.ca/sites/default
 [HT-Biology2015\_Module4.pdf](https://bioinformatics.ca/htbiology2015module4pdf)  
 [HT-Biology2015\_Module4.mp4](https://bioinformatics.ca/htbiology2015module4mp4)
 
-Paper cited by Jared in lecture: [http://genomebiology.com/2014/15/3/R42 A comprehensive evaluation of assembly scaffolding tools](http://genomebiology.com/2014/15/3/R42_A_comprehensive_evaluation_of_assembly_scaffolding_tools)
+Paper cited by Jared in lecture: [A comprehensive evaluation of assembly scaffolding tools](http://genomebiology.com/2014/15/3/R42_A_comprehensive_evaluation_of_assembly_scaffolding_tools)
 
 <hr>
 ### Integrated Assignment for Day 1
@@ -218,9 +218,9 @@ Day 2
 
 **Lecture:**
 
-[HT-Biology2015\_Module5.pdf](https://bioinformatics.ca/htbiology2015module5pdf)
-[HT-Biology2015\_Module5.ppt](https://bioinformatics.ca/htbiology2015module5pptx)  
-[HT-Biology2015\_Module5.pmp4](https://bioinformatics.ca/htbiology2015module5mp4)  
+[HT-Biology2015\_Module5.pdf](https://bioinformatics.ca/htbiology2015module5pdf)  
+[HT-Biology2015\_Module5.ppt](https://bioinformatics.ca/htbiology2015module5pptx)    
+[HT-Biology2015\_Module5.pmp4](https://bioinformatics.ca/htbiology2015module5mp4)    
 
 **Lab Practical:**
 
@@ -253,9 +253,9 @@ You can download the data set from [here](http://www.hpc4health.ca/sites/default
 
 **Lecture:**
 
-[HT-Biology2015\_Module6.pdf](https://bioinformatics.ca/htbiology2015module6pdf)
-[HT-Biology2015\_Module6.ppt](https://bioinformatics.ca/htbiology2015module6pptx)  
-[HT-Biology2015\_Module6.mp4](https://bioinformatics.ca/htbiology2015module6mp4)  
+[HT-Biology2015\_Module6.pdf](https://bioinformatics.ca/htbiology2015module6pdf)  
+[HT-Biology2015\_Module6.ppt](https://bioinformatics.ca/htbiology2015module6pptx)    
+[HT-Biology2015\_Module6.mp4](https://bioinformatics.ca/htbiology2015module6mp4)    
 
  [Lab directions](http://bioinformatics-ca.github.io/high-throughput_sequencing_mod6_lab_2015/)
 
@@ -276,9 +276,9 @@ You can download the data set from [here](http://www.hpc4health.ca/sites/default
 
 **Lecture:**
 
-[Module\_07\_NYGC\_CBW\_Ouellette\_ver04.pdf](https://bioinformatics.ca/htbiology2015module7pdf)
-[Module\_07\_NYGC\_CBW\_Ouellette\_ver04.ppt](https://bioinformatics.ca/htbiology2015module7pptx)
-[Module\_07\_NYGC\_CBW\_Ouellette\_ver04.mp4](https://bioinformatics.ca/htbiology2015module7mp4)
+[Module\_07\_NYGC\_CBW\_Ouellette\_ver04.pdf](https://bioinformatics.ca/htbiology2015module7pdf)  
+[Module\_07\_NYGC\_CBW\_Ouellette\_ver04.ppt](https://bioinformatics.ca/htbiology2015module7pptx)  
+[Module\_07\_NYGC\_CBW\_Ouellette\_ver04.mp4](https://bioinformatics.ca/htbiology2015module7mp4)  
 
 **Lab Practical:**
 
@@ -329,10 +329,9 @@ Day 3
 
 **Lecture slides:**
 
-[HT-Biology2015\_Module8.pdf](https://bioinformatics.ca/htbiology2015module8pdf)
-<https://github.com/griffithlab/rnaseq_tutorial/wiki/Lectures>
-[HT-Biology2015\_Module8.ppt](https://bioinformatics.ca/htbiology2015module8pptx)
-[HT-Biology2015\_Module8.mp4](https://bioinformatics.ca/htbiology2015module8mp4)
+[HT-Biology2015\_Module8.pdf](https://bioinformatics.ca/htbiology2015module8pdf)  
+[HT-Biology2015\_Module8.ppt](https://bioinformatics.ca/htbiology2015module8pptx)  
+[HT-Biology2015\_Module8.mp4](https://bioinformatics.ca/htbiology2015module8mp4)  
 
 **Lab practical:**
 
@@ -349,10 +348,9 @@ Tutorial scripts:
 
 **Lecture slides:**
 
-[HT-Biology2015\_Module9.pdf](https://bioinformatics.ca/htbiology2015module9pdf)
-<https://github.com/griffithlab/rnaseq_tutorial/wiki/Lectures>
-[HT-Biology2015\_Module9.ppt](https://bioinformatics.ca/htbiology2015module9pptx)
-[HT-Biology2015\_Module9.mp4](https://bioinformatics.ca/htbiology2015module9mp4)
+[HT-Biology2015\_Module9.pdf](https://bioinformatics.ca/htbiology2015module9pdf)  
+[HT-Biology2015\_Module9.ppt](https://bioinformatics.ca/htbiology2015module9pptx)  
+[HT-Biology2015\_Module9.mp4](https://bioinformatics.ca/htbiology2015module9mp4)  
 
 **Lab practical:**
 
@@ -367,7 +365,8 @@ Tutorial scripts:
 
 <font color="green">*Faculty: Fouad Yousif*</font>
 
-<https://github.com/griffithlab/rnaseq_tutorial/wiki/Integrated-Assignment>
+[Integrated Assignment](https://github.com/griffithlab/rnaseq_tutorial/wiki/Integrated-Assignment)  
+
 Paper for Integrated Assignment Day 3 - Recurrent chimeric RNAs enriched in human prostate cancer identified by deep sequencing [PMC3107329](http://www.ncbi.nlm.nih.gov/pubmed/21571633)
 
 Assignment Text: 
@@ -391,10 +390,9 @@ Day 4
 
 **Lecture slides:**
 
-[HT-Biology2015\_Module10.pdf](https://bioinformatics.ca/htbiology2015module10pdf)
-<https://github.com/griffithlab/rnaseq_tutorial/wiki/Lectures>
-[HT-Biology2015\_Module10.ppt](https://bioinformatics.ca/htbiology2015module10pptx)
-[HT-Biology2015\_Module10.mp4](https://bioinformatics.ca/htbiology2015module10mp4)
+[HT-Biology2015\_Module10.pdf](https://bioinformatics.ca/htbiology2015module10pdf)  
+[HT-Biology2015\_Module10.ppt](https://bioinformatics.ca/htbiology2015module10pptx)  
+[HT-Biology2015\_Module10.mp4](https://bioinformatics.ca/htbiology2015module10mp4)  
 
 **Lab practical:**
 
@@ -411,10 +409,9 @@ Tutorial Scripts:
 
 **Lecture slides:**
 
-[HT-Biology2015\_Module11.pdf](https://bioinformatics.ca/htbiology2015module11pdf)
-<https://github.com/griffithlab/rnaseq_tutorial/wiki/Lectures>
-[HT-Biology2015\_Module11.ppt](https://bioinformatics.ca/htbiology2015module11pptx)
-[HT-Biology2015\_Module11.mp4](https://bioinformatics.ca/htbiology2015module11mp4)
+[HT-Biology2015\_Module11.pdf](https://bioinformatics.ca/htbiology2015module11pdf)  
+[HT-Biology2015\_Module11.ppt](https://bioinformatics.ca/htbiology2015module11pptx)  
+[HT-Biology2015\_Module11.mp4](https://bioinformatics.ca/htbiology2015module11mp4)  
 
 **Lab practical:**
 
@@ -453,17 +450,17 @@ Day 5
 
 **Lecture:**
 
-[HT-Biology2015\_Module12.pdf](https://bioinformatics.ca/htbiology2015module12pdf)
-[HT-Biology2015\_Module12.ppt](https://bioinformatics.ca/htbiology2015module12ppt)
-[HT-Biology2015\_Module12.mp4](https://bioinformatics.ca/htbiology2015module12mp4)
+[HT-Biology2015\_Module12.pdf](https://bioinformatics.ca/htbiology2015module12pdf)  
+[HT-Biology2015\_Module12.ppt](https://bioinformatics.ca/htbiology2015module12ppt)  
+[HT-Biology2015\_Module12.mp4](https://bioinformatics.ca/htbiology2015module12mp4)  
 
 **Links:**
 
-* [The Synergizer](http://llama.med.harvard.edu/synergizer/translate/) - identifier mapping
-* [Ensembl BioMart(http://www.ensembl.org/index.html) - (in menu bar, select the BioMart tab) eukaryotic gene query system
-* [ID Conversion Tool: gConvert](http://biit.cs.ut.ee/gprofiler/gconvert.cgi)  - identifier mapping
-* [Gene Ontology](http://www.geneontology.org/) - gene annotation
-* [Cytoscape](http://www.cytoscape.org/) - network visualization and analysis
+* [The Synergizer](http://llama.med.harvard.edu/synergizer/translate/) - identifier mapping  
+* [Ensembl BioMart(http://www.ensembl.org/index.html) - (in menu bar, select the BioMart tab) eukaryotic gene query system  
+* [ID Conversion Tool: gConvert](http://biit.cs.ut.ee/gprofiler/gconvert.cgi)  - identifier mapping  
+* [Gene Ontology](http://www.geneontology.org/) - gene annotation  
+* [Cytoscape](http://www.cytoscape.org/) - network visualization and analysis  
 
 <hr>
 ### Module 13: Finding over-represented pathways in gene lists
@@ -472,9 +469,9 @@ Day 5
 
 **Lecture:**
 
-[HT-Biology2015\_Module13.pdf](https://bioinformatics.ca/htbiology2015module13pdf)
-[HT-Biology2015\_Module13.ppt](https://bioinformatics.ca/htbiology2015module13pptx)
-[HT-Biology2015\_Module13.mp4](https://bioinformatics.ca/htbiology2015module13mp4)
+[HT-Biology2015\_Module13.pdf](https://bioinformatics.ca/htbiology2015module13pdf)  
+[HT-Biology2015\_Module13.ppt](https://bioinformatics.ca/htbiology2015module13pptx)  
+[HT-Biology2015\_Module13.mp4](https://bioinformatics.ca/htbiology2015module13mp4)  
 
 **Lab Practical:**
 
@@ -502,11 +499,11 @@ BaderLab tutorial for g:Profiler + Enrichment Map: [http://www.baderlab.o
 **Additional Links:**
 
 * [Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources](http://www.ncbi.nlm.nih.gov/pubmed/19131956)
-* [Comparison of enrichment tools](http://www.nature.com/nprot/journal/v4/n1/suppinfo/nprot.2008.211_S1.html)
-* [ConceptGen](http://conceptgen.ncibi.org/core/conceptGen/index.jsp) - Enrichment Analysis for simple gene lists (Fisher's Exact Test)
-* [GSEA](http://www.broad.mit.edu/gsea/) - Enrichment Analysis for ranked gene lists
-* Other Enrichment Analysis tools for simple gene lists: [Funspec](http://funspec.med.utoronto.ca/), [GoMiner](http://discover.nci.nih.gov/gominer/)
-* [List of 68 Enrichment Tools](http://www.nature.com/nprot/journal/v4/n1/extref/nprot.2008.211-S1.xls) available as of 2008
+* [Comparison of enrichment tools](http://www.nature.com/nprot/journal/v4/n1/suppinfo/nprot.2008.211_S1.html)
+* [ConceptGen](http://conceptgen.ncibi.org/core/conceptGen/index.jsp) - Enrichment Analysis for simple gene lists (Fisher's Exact Test)
+* [GSEA](http://www.broad.mit.edu/gsea/) - Enrichment Analysis for ranked gene lists
+* Other Enrichment Analysis tools for simple gene lists: [Funspec](http://funspec.med.utoronto.ca/), [GoMiner](http://discover.nci.nih.gov/gominer/)
+* [List of 68 Enrichment Tools](http://www.nature.com/nprot/journal/v4/n1/extref/nprot.2008.211-S1.xls) available as of 2008
 
 <hr>
 ### Module 14: Cytoscape Intro, Demo and Enrichment Maps
@@ -548,16 +545,16 @@ Enrichment Map App can be also downloaded from Cytoscape > Apps > Ap
 
 * Enrichment Map Software: <http://baderlab.org/Software/EnrichmentMap>
 
- * BaderLab tutorial for g:Profiler + Enrichment Map: [http://www.baderlab.org/Software/EnrichmentMap/GProfilerTutorial](http://www.baderlab.org/Software/EnrichmentMap/GProfilerTutorial)
- * Enrichment Map Post-Analysis Tutorial: [http://www.baderlab.org/Software/EnrichmentMap/PostAnalysisTutorial](http://www.baderlab.org/Software/EnrichmentMap/PostAnalysisTutorial)
+ * BaderLab tutorial for g:Profiler + Enrichment Map: [http://www.baderlab.org/Software/EnrichmentMap/GProfilerTutorial](http://www.baderlab.org/Software/EnrichmentMap/GProfilerTutorial)  
+ * Enrichment Map Post-Analysis Tutorial: [http://www.baderlab.org/Software/EnrichmentMap/PostAnalysisTutorial](http://www.baderlab.org/Software/EnrichmentMap/PostAnalysisTutorial)  
 
 **Other useful Cytoscape apps**:
 
-* Agilent Literature Search - extracts interactions from PubMed abstracts
-* clusterMaker2 - provides multiple ways to cluster gene expression and networks
-* BiNGO - provides over-representation analysis using Gene Ontology in Cytoscape - you can select genes in your network or provide a list of genes and see the enrichment results visually mapped to the Gene Ontology
-* jActiveModules - requires gene expression data over multiple samples (>3). Finds regions of a network where genes are active (e.g. differentially expressed) across multiple samples.
-* Many more at [http://apps.cytoscape.org/apps/enrichmentmap](http://apps.cytoscape.org/apps/enrichmentmap)
+* Agilent Literature Search - extracts interactions from PubMed abstracts  
+* clusterMaker2 - provides multiple ways to cluster gene expression and networks  
+* BiNGO - provides over-representation analysis using Gene Ontology in Cytoscape - you can select genes in your network or provide a list of genes and see the enrichment results visually mapped to the Gene Ontology  
+* jActiveModules - requires gene expression data over multiple samples (>3). Finds regions of a network where genes are active (e.g. differentially expressed) across multiple samples.  
+* Many more at [http://apps.cytoscape.org/apps/enrichmentmap](http://apps.cytoscape.org/apps/enrichmentmap)  
 
 <hr>
 ### Integrated Assignment - Day 5
@@ -566,8 +563,8 @@ Enrichment Map App can be also downloaded from Cytoscape > Apps > Ap
 
 **Lab Practical:**
 
-[HT-Biology2015\_Day5\_IntegratedAssignment.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/HTBio/HT-Biology2015_Day5_IntegratedAssignment.pdf)
-[HT-Biology2015\_Day5\_IntegratedAssignmentAnswers.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/HTBio/HT-Biology2015_Day5_IntegratedAssignmentAnswers.pdf)
+[HT-Biology2015\_Day5\_IntegratedAssignment.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/HTBio/HT-Biology2015_Day5_IntegratedAssignment.pdf)  
+[HT-Biology2015\_Day5\_IntegratedAssignmentAnswers.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/HTBio/HT-Biology2015_Day5_IntegratedAssignmentAnswers.pdf)  
 
 **Input Data sets:**
 
@@ -589,15 +586,15 @@ Day 6
 
 **Lecture:**
 
-[HT-Biology2015\_Module15.pdf](https://bioinformatics.ca/htbiology2015module15pdf)
-[HT-Biology2015\_Module15.ppt](https://bioinformatics.ca/htbiology2015module15pptx)
-[HT-Biology2015\_Module15.mp4](https://bioinformatics.ca/htbiology2015module15mp4)
+[HT-Biology2015\_Module15.pdf](https://bioinformatics.ca/htbiology2015module15pdf)  
+[HT-Biology2015\_Module15.ppt](https://bioinformatics.ca/htbiology2015module15pptx)  
+[HT-Biology2015\_Module15.mp4](https://bioinformatics.ca/htbiology2015module15mp4)  
 
 **Lab Practical:**
 
-[HT-Biology2015\_Module15\_LabSlides.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module4_LabSlides.pdf)
-[HT-Biology2015\_Module15\_LabExercise.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module4_Lab.pdf)
-[HT-Biology2015\_Module15\_LabAnswers.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module4_LabAnswers.pdf)
+[HT-Biology2015\_Module15\_LabSlides.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module4_LabSlides.pdf)  
+[HT-Biology2015\_Module15\_LabExercise.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module4_Lab.pdf)  
+[HT-Biology2015\_Module15\_LabAnswers.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module4_LabAnswers.pdf)  
 
 **Data Sets:**
 
@@ -643,14 +640,14 @@ Reactome Website: [NAR paper](http://www.ncbi.nlm.nih.gov/pubmed/26656494); [Web
 
 **Lecture:**
 
-[HT-Biology2015\_Module16.pdf](https://bioinformatics.ca/htbiology2015module16pdf)
-[HT-Biology2015\_Module16.ppt](https://bioinformatics.ca/htbiology2015module16pptx)
-[HT-Biology2015\_Module16.mp4](https://bioinformatics.ca/htbiology2015module16mp4)
+[HT-Biology2015\_Module16.pdf](https://bioinformatics.ca/htbiology2015module16pdf)  
+[HT-Biology2015\_Module16.ppt](https://bioinformatics.ca/htbiology2015module16pptx)  
+[HT-Biology2015\_Module16.mp4](https://bioinformatics.ca/htbiology2015module16mp4)  
 
 **Lab Practical:**
 
-[HT-Biology2015\_Module16\_LabSlides.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module5_LabSlides.pdf)  
-[HT-Biology2015\_Module16\_LabExercise.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module5_Lab.pdf)  
+[HT-Biology2015\_Module16\_LabSlides.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module5_LabSlides.pdf)    
+[HT-Biology2015\_Module16\_LabExercise.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module5_Lab.pdf)    
 
 **Data Sets for GeneMANIA exercises:**
 
@@ -681,8 +678,8 @@ Reactome Website: [NAR paper](http://www.ncbi.nlm.nih.gov/pubmed/26656494); [Web
 
 * [Zip Folder containing reactomeFI-app-4.0.1-beta.jar](https://github.com/bioinformatics-ca/2015_workshops/raw/master/HTBio/Reactome_FI-4.0.1.zip)
 
-[HT-Biology2015\_Day5\_IntegratedAssignment.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_part2_IntegratedAssignment.pdf)
-[HT-Biology2015\_Day5\_IntegratedAssignmentAnswers.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_part2_IntegratedAssignmentAnswers.pdf)
+[HT-Biology2015\_Day5\_IntegratedAssignment.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_part2_IntegratedAssignment.pdf)  
+[HT-Biology2015\_Day5\_IntegratedAssignmentAnswers.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_part2_IntegratedAssignmentAnswers.pdf)  
 
 **Input Data sets:**
 *  [STAD\_MutSig.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/STAD_MutSig.txt) (named GastricCancer\_mutsig.txt in the instructions)
@@ -698,15 +695,16 @@ Day 7
 
 **Lecture:**
 
-[HT-Biology2015\_Module17.pdf](https://bioinformatics.ca/htbiology2015module17pdf)
-[HT-Biology2015\_Module17.ppt](https://bioinformatics.ca/htbiology2015module17pptx)
-[HT-Biology2015\_Module17.mp4](https://bioinformatics.ca/htbiology2015module17mp4)
+[HT-Biology2015\_Module17.pdf](https://bioinformatics.ca/htbiology2015module17pdf)  
+[HT-Biology2015\_Module17.ppt](https://bioinformatics.ca/htbiology2015module17pptx)  
+[HT-Biology2015\_Module17.mp4](https://bioinformatics.ca/htbiology2015module17mp4)  
 
 **Lab Practical:**
 
-[HT-Biology2015\_Module17\_Lab.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/HT-Biology2015_Module17_Lab.pdf) [HT-Biology2015\_Module17\_Lab\_Addenda.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/HT-Biology2015_Module17_Lab_Addenda.pdf)
+[HT-Biology2015\_Module17\_Lab.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/HT-Biology2015_Module17_Lab.pdf)   
+[HT-Biology2015\_Module17\_Lab\_Addenda.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/HT-Biology2015_Module17_Lab_Addenda.pdf)  
 
--  [Nature Protocols paper by Ma, Bailey, and Noble:](http://www.nature.com/nprot/journal/v9/n6/full/nprot.2014.083.html)
+-  [Nature Protocols paper by Ma, Bailey, and Noble:](http://www.nature.com/nprot/journal/v9/n6/full/nprot.2014.083.html)  
 
 **Links:**
 
