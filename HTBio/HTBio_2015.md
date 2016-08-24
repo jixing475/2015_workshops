@@ -151,9 +151,9 @@ You can download the data set from [here](http://www.hpc4health.ca/sites/default
 
 **Lab Practical:**
 
-* [Visualization Scavenger Hunt](Media:Visualization_Scavenger_Hunt.pdf "wikilink")
+* [Visualization Scavenger Hunt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/HTBio/Visualization_Scavenger_Hunt.pdf)
 * Part I: [Using the IGV to visualize HTS datasets](http://bioinformatics-ca.github.io/bioinformatics_for_cancer_genomics_IGV_lab_2016/)
-* Part II: [Using the Savant Genome Browser to visualize HTS datasets](Using_the_Savant_Genome_Browser_to_visualize_HTS_datasets "wikilink") (start at inspecting structural variants)
+* Part II: [Using the Savant Genome Browser to visualize HTS datasets](http://bioinformatics-ca.github.io/savant_genome_browser_lab_2015/) (start at inspecting structural variants)
 
 **Data set:**
 
@@ -167,7 +167,7 @@ You can download the data set from [here](http://www.hpc4health.ca/sites/default
 
 **IGV Tips and Tricks:**
 
-[IGV Tutorial practice](Media:IGV_Tutorial.pdf "wikilink")
+[IGV Tutorial practice](https://github.com/bioinformatics-ca/bioinformatics-ca.github.io/raw/master/resources/IGV_Tutorial.pdf)
 
 <hr>
 ### Module 4: De Novo Assembly
@@ -205,7 +205,7 @@ Integrated Assignment:  [ IA\_Questions-Answers\_2015.txt](https://github.com/bi
 
 **Data set:** 
 
-The data set for this integrated assignment is included in [ Module2 data set](High-throughput_Biology:_From_Sequence_to_Networks_2015_Workshop_Wiki#Module_2:_Reference_Genome_Alignment "wikilink")
+The data set for this integrated assignment is included in [ Module2 data set](http://www.hpc4health.ca/sites/default/files/cbw/2015/HT_data/module2_data.zip)
 
 <hr>
 Day 2
@@ -480,18 +480,16 @@ Day 5
 
 <font color="green">*Faculty: Jüri Reimand*</font>
 
-[HT-Biology2015\_Module13\_Lab.pdf](Media:‎HT-Biology2015_Module13_Lab.pdf "wikilink")
-[HT-Biology2015\_Module13\_Lab.pptx](Media:‎HT-Biology2015_Module13_Lab.pptx "wikilink")
+[HT-Biology2015\_Module13\_Lab.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/HTBio/HT-Biology2015_Module13_Lab.pdf)
 
 **g:Profiler Files and data for lab:**
 
-*  [Materials\_for\_ORA.zip](Media:Materials_for_ORA.zip "wikilink")
-
-* MCF7_12hr_topgenes.txt - g:Profiler input with significantly expressed genes in MFC7 cells at 12h
-* MCF7_24hr_topgenes.txt - g:Profiler input with significantly expressed genes in MFC7 cells at 24h
-* MCF7_12hr_24hr_topgenes_for_gCocoa.txt - g:Cocoa input with both gene lists
-* Yeast_TFs_in_cell_cycle.txt - cell cycle transcription factor list, to test with background set
-* Yeast_TF_background_list.txt - all transcription factors in yeast, to test with background set
+*  [Materials\_for\_ORA.zip](https://github.com/bioinformatics-ca/2015_workshops/raw/master/HTBio/Materials_for_ORA.zip)
+  * MCF7_12hr_topgenes.txt - g:Profiler input with significantly expressed genes in MFC7 cells at 12h
+  * MCF7_24hr_topgenes.txt - g:Profiler input with significantly expressed genes in MFC7 cells at 24h
+  * MCF7_12hr_24hr_topgenes_for_gCocoa.txt - g:Cocoa input with both gene lists
+  * Yeast_TFs_in_cell_cycle.txt - cell cycle transcription factor list, to test with background set
+  * Yeast_TF_background_list.txt - all transcription factors in yeast, to test with background set
 
  **Link to g:Profiler:**
 
@@ -503,12 +501,12 @@ BaderLab tutorial for g:Profiler + Enrichment Map: [http://www.baderlab.o
 
 **Additional Links:**
 
-* [Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources.pdf](Media:PMID19131956.pdf "wikilink")
-* Comparison of enrichment tools [6](http://www.nature.com/nprot/journal/v4/n1/suppinfo/nprot.2008.211_S1.html)
-* ConceptGen [7](http://conceptgen.ncibi.org/core/conceptGen/index.jsp) - Enrichment Analysis for simple gene lists (Fisher's Exact Test)
-* GSEA [8](http://www.broad.mit.edu/gsea/) - Enrichment Analysis for ranked gene lists
-* Other Enrichment Analysis tools for simple gene lists: Funspec [9](http://funspec.med.utoronto.ca/), GoMiner [10](http://discover.nci.nih.gov/gominer/)
-* List of 68 Enrichment Tools [11](http://www.nature.com/nprot/journal/v4/n1/extref/nprot.2008.211-S1.xls) available as of 2008
+* [Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources](http://www.ncbi.nlm.nih.gov/pubmed/19131956)
+* [Comparison of enrichment tools](http://www.nature.com/nprot/journal/v4/n1/suppinfo/nprot.2008.211_S1.html)
+* [ConceptGen](http://conceptgen.ncibi.org/core/conceptGen/index.jsp) - Enrichment Analysis for simple gene lists (Fisher's Exact Test)
+* [GSEA](http://www.broad.mit.edu/gsea/) - Enrichment Analysis for ranked gene lists
+* Other Enrichment Analysis tools for simple gene lists: [Funspec](http://funspec.med.utoronto.ca/), [GoMiner](http://discover.nci.nih.gov/gominer/)
+* [List of 68 Enrichment Tools](http://www.nature.com/nprot/journal/v4/n1/extref/nprot.2008.211-S1.xls) available as of 2008
 
 <hr>
 ### Module 14: Cytoscape Intro, Demo and Enrichment Maps
@@ -518,22 +516,21 @@ BaderLab tutorial for g:Profiler + Enrichment Map: [http://www.baderlab.o
 **Lab Practical:** 
 
 Use the enrichment results from g:Profiler in module 13 (back up files) to create Enrichment Maps
-[HT-Biology2015\_Module14\_LabSlides.pdf](https://bioinformatics.ca/htbiology2015module14pdf)
-[HT-Biology2015\_Module14\_LabSlides.pptx](https://bioinformatics.ca/htbiology2015module14pptx)
+
+[HT-Biology2015\_Module14\_LabSlides.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/HTBio/HT-Biology2015_Module14_LabSlides.pdf)
 
 **Cytoscape files and data for lab:**
 
-*  [Materials\_for\_Cytoscape\_and\_EnrichmentMap.zip](Media:Materials_for_Cytoscape_and_EnrichmentMap.zip "wikilink")
-
-* Cytoscape_demo_session.cys - Cytoscape session to test network visualisation, filtering, and analysis
-* Cytoscape_example_network.txt - Example network for Cytoscape demo. Load with File > Import > Network.
-* Cytoscape_example_node_attributes.txt - Node attributes for Cytoscape demo. Load with File > Import > Table.
-* EnrichmentMap_24h_Cytoscape_session.cys - Cytoscape session with Enrichment Maps of MCF7 cells on 24h.
-* cancer_genes.gmt - GMT file with list of cancer genes used for Post-Analysis.
-* enrichmentmap-2.0.1.jar - Java file of Enrichment Map app, install with Apps > App Manager > Install from File. 
-* enrichments_12h_gem1029976022995.txt - Table of pathway enrichments from g:Profiler, MFC7 cells at 24h.
-* enrichments_24h_gem1047153205012.txt - Table of pathway enrichments from g:Profiler, MFC7 cells at 12h.
-* hsapiens.NAME.gmt - GMT file with pathways and corresponding gene sets from g:Profiler.
+*  [Materials\_for\_Cytoscape\_and\_EnrichmentMap.zip](https://github.com/bioinformatics-ca/2015_workshops/raw/master/HTBio/Materials_for_Cytoscape_and_EnrichmentMap.zip)  
+  * Cytoscape_demo_session.cys - Cytoscape session to test network visualisation, filtering, and analysis
+  * Cytoscape_example_network.txt - Example network for Cytoscape demo. Load with File > Import > Network.
+  * Cytoscape_example_node_attributes.txt - Node attributes for Cytoscape demo. Load with File > Import > Table.
+  * EnrichmentMap_24h_Cytoscape_session.cys - Cytoscape session with Enrichment Maps of MCF7 cells on 24h.
+  * cancer_genes.gmt - GMT file with list of cancer genes used for Post-Analysis.
+  * enrichmentmap-2.0.1.jar - Java file of Enrichment Map app, install with Apps > App Manager > Install from File. 
+  * enrichments_12h_gem1029976022995.txt - Table of pathway enrichments from g:Profiler, MFC7 cells at 24h.
+  * enrichments_24h_gem1047153205012.txt - Table of pathway enrichments from g:Profiler, MFC7 cells at 12h.
+  * hsapiens.NAME.gmt - GMT file with pathways and corresponding gene sets from g:Profiler.
 
 **Lab Practical optional:** 
 
@@ -541,7 +538,7 @@ Use your own data set.
 
 **Programs Used:**
 
-* Cytoscape \[ <http://www.cytoscape.org/>\]
+* [Cytoscape](http://www.cytoscape.org/)
 
 * Open Tutorials for Cytoscape: [http://opentutorials.cgl.ucsf.edu/index.php/Portal:Cytoscape](http://opentutorials.cgl.ucsf.edu/index.php/Portal:Cytoscape)
 * EnrichmentMap - [http://apps.cytoscape.org/apps/enrichmentmap](http://apps.cytoscape.org/apps/enrichmentmap)
@@ -569,18 +566,17 @@ Enrichment Map App can be also downloaded from Cytoscape > Apps > Ap
 
 **Lab Practical:**
 
-[HT-Biology2015\_Day5\_IntegratedAssignment.pdf](Media:_HT-Biology2015_Day5_IntegratedAssignment.pdf "wikilink")
-[HT-Biology2015\_Day5\_IntegratedAssignmentAnswers.pdf](Media:_HT-Biology2015_Day5_IntegratedAssignmentAnswers.pdf "wikilink")
+[HT-Biology2015\_Day5\_IntegratedAssignment.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/HTBio/HT-Biology2015_Day5_IntegratedAssignment.pdf)
+[HT-Biology2015\_Day5\_IntegratedAssignmentAnswers.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/HTBio/HT-Biology2015_Day5_IntegratedAssignmentAnswers.pdf)
 
 **Input Data sets:**
 
-* [ Day5 All Integrated Assignment Files](Media:Day5_IntegratedAssignment.zip "wikilink")
-* [ Expression.txt](Media:Expression.txt "wikilink")
-* [ gem1033458993259_BE.txt](Media:gem1033458993259_BE.txt "wikilink")
-* [ gem1047581616441_EAC.txt](Media:gem1047581616441_EAC.txt "wikilink")
-* [ GeneSet1_BE.txt](Media:GeneSet1_BE.txt "wikilink")
-* [ GeneList2_EAC.txt](Media:GeneList2_EAC.txt "wikilink")
-* [ hsapiens.NAME.gmt](Media:hsapiens.NAME.gmt "wikilink")
+* [Expression.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Expression.txt)
+* [gem1033458993259_BE.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Gem1033458993259_BE.txt)
+* [gem1047581616441_EAC.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Gem1047581616441_EAC.txt)
+* [GeneSet1_BE.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/GeneSet1_BE.txt)
+* [GeneList2_EAC.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/GeneList2_EAC.txt)
+* [hsapiens.NAME.gmt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Hsapiens.NAME.gmt)
 
 <hr>
 Day 6
@@ -599,42 +595,46 @@ Day 6
 
 **Lab Practical:**
 
-[HT-Biology2015\_Module15\_LabSlides.pdf](Media:HT-Biology2015_Module15_LabSlides.pdf "wikilink")
-[HT-Biology2015\_Module15\_LabExercise.pdf](Media:HT-Biology2015_Module15_LabExercise.pdf "wikilink")
-[ HT-Biology2015\_Module15\_LabAnswers.pdf](Media:HT-Biology2015_Module15_LabAnswers.pdf "wikilink")
+[HT-Biology2015\_Module15\_LabSlides.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module4_LabSlides.pdf)
+[HT-Biology2015\_Module15\_LabExercise.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module4_Lab.pdf)
+[HT-Biology2015\_Module15\_LabAnswers.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module4_LabAnswers.pdf)
 
 **Data Sets:**
 
-[ Module 15 Data Set](Media:Day6_Module15_DataSets.zip "wikilink")
-[ Demo file](Media:LAC_genelist.txt "wikilink")
-[ GBM TCGA gene list](Media:GBM_TCGA_GeneList.txt "wikilink")
-[ GBM gene-sample pair](Media:GBM_genesample.txt "wikilink")
-[OVCA TCGA MAF](Media:OVCA_TCGA_MAF.txt "wikilink")
-[OVCA TCGA clinical data](Media:OVCA_TCGA_Clinical.txt "wikilink")
+[Module 15 Data Set](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Day2_Module4_DataSets.zip)  
+
 
 **Programs Used:**
 
- Reactome Website:  [12](http://www.reactome.org)
- Reactome User Guide:  [13](http://wiki.reactome.org/index.php/Usersguide)
- ReactomeFI User Guide : [14](http://wiki.reactome.org/index.php/Reactome_FI_Cytoscape_Plugin)
+* [Reactome Website](http://www.reactome.org)
+* [Reactome User Guide](http://wiki.reactome.org/index.php/Usersguide)
+* [ReactomeFI User Guide](http://wiki.reactome.org/index.php/Reactome_FI_Cytoscape_Plugin)
 
 **Papers:**
 
-Clustering Algorithms : [Newman Clustering](Media:Newman_Clustering_2006.pdf "wikilink") and [Hotnet](Media:Vandin_PSB_2012.pdf "wikilink")
-Reactome Website : [NAR paper](Media:Croft_NAR_2014.pdf "wikilink")
-Nature Methods Perspectives Paper: [Nature Methods Perpsectives on Cancer Pathway Analysis.pdf](Media:Nature_Methods_Perspectives_Cancer_Pathway_Analysis-TO_SUBMIT-1May2014.pdf "wikilink")
-Supplementary Materials: [Supplementary Materials.pdf](Media:Supplementary_Materials_CLEAN_Nature_Methods_Perspectives_Cancer_Pathway_Analysis-13Apr2014.pdf "wikilink")
+[Integrated genomic analyses of ovarian carcinoma](http://www.nature.com/nature/journal/v474/n7353/full/nature10166.html)
+
+Clustering Algorithms: [Newman Clustering](http://www.pnas.org/content/103/23/8577.abstract) and [Hotnet](http://www.ncbi.nlm.nih.gov/pubmed/22174262)
+
+Reactome Website: [NAR paper](http://www.ncbi.nlm.nih.gov/pubmed/26656494); [Website guide](https://bioinformatics-ca.github.io/2016_workshops/cancer/ReactomeWebSiteGuide_for_resources.pdf)
+
+[Nature Methods and Perspectives Paper](http://www.ncbi.nlm.nih.gov/pubmed/26125594)
+
+[Supplementary Materials](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4717906/bin/NIHMS750562-supplement-Supplementary_materials.pdf)
+
+
 **Links:**
+
 <b>Pathway and Interaction databases</b>
 
-GO [15](http://www.geneontology.org)
-KEGG [16](http://www.genome.jp/kegg)
-Biocarta [17](http://www.biocarta.com)
-Reactome [18](http://reactome.org/)  (Curated human pathways)
-NCI/PID [19](http://pid.nci.nih.gov/)
-Pathway Commons [20](http://www.pathwaycommons.org/pc/) (Aggregates pathways from multiple sources)
-iRefWeb/iRefIndex [21](http://wodaklab.org/iRefWeb/) (Protein interactions)
->300 more at [http://www.pathguide.org/](http://www.pathguide.org/)
+ * [GO](http://www.geneontology.org)
+ * [KEGG](http://www.genome.jp/kegg)
+ * [Biocarta](http://www.biocarta.com)
+ * [Reactome](http://reactome.org/) Curated human pathways
+ * [NCI/PID](http://pid.nci.nih.gov/)
+ * [Pathway Commons](http://www.pathwaycommons.org/pc/) Aggregates pathways from multiple sources
+ * [iRefWeb/iRefIndex](http://wodaklab.org/iRefWeb/) Protein interactions
+ * [>300 more](http://www.pathguide.org/)
 
 <hr>
 ### Module 16: Gene Function Prediction
@@ -649,24 +649,26 @@ iRefWeb/iRefIndex [21](http://wodaklab.org/iRefWeb/) (Protein interactions)
 
 **Lab Practical:**
 
-[Pathways2015\_Module5\_Lab.pdf](Media:Pathways2015_Module5_Lab.pdf "wikilink")
-[Pathways2015\_Module5\_Lab\_Slides.pdf](Media:Pathways2015_Module5_Lab_Slides.pdf "wikilink")
+[HT-Biology2015\_Module16\_LabSlides.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module5_LabSlides.pdf)  
+[HT-Biology2015\_Module16\_LabExercise.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_Module5_Lab.pdf)  
 
 **Data Sets for GeneMANIA exercises:**
 
- [30\_prostate\_cancer\_genes.txt](Media:30_prostate_cancer_genes.txt "wikilink")
- [mixed\_gene\_list.txt](Media:mixed_gene_list.txt "wikilink")
- [CYB11B\_pearson\_correlation\_prostate.txt](Media:CYB11B_pearson_correlation_prostate.txt "wikilink")
+[30\_prostate\_cancer\_genes.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/30_prostate_cancer_genes.txt)  
+[mixed\_gene\_list.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Mixed_gene_list.txt)  
+[CYB11B\_pearson\_correlation\_prostate.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/CYB11B_pearson_correlation_prostate.txt)  
 
-**Links:** Tools for gene function prediction systems (using functional associations)
+**Links:**
 
-* GeneMANIA [22](http://www.genemania.org/) (or beta version [23](http://beta.genemania.org/))
-* STRING  [24](http://string.embl.de/)
-* FunCoup [25](http://funcoup.sbc.su.se/) -- similar to STRING and GeneMANIA
-* bioPIXIE [26](http://pixie.princeton.edu/pixie/) -- an early gene recommender system for yeast
-* mouseNET [27](http://mousenet.princeton.edu/) -- gene recommender for mouse
-* FunctionalNet [28](http://www.functionalnet.org/) -- composite functional networks for work, yeast, mouse and A thaliana
-* FuncBase [29](http://func.mshri.on.ca/) -- a compiled database of gene functional predictions using supervised learning on Gene Ontology categories
+<b>Tools for gene function prediction systems (using functional associations)</b>
+
+* [GeneMANIA](http://www.genemania.org/) (or [beta version](http://beta.genemania.org/))  
+* [STRING](http://string.embl.de/)  
+* [FunCoup](http://funcoup.sbc.su.se/) -- similar to STRING and GeneMANIA  
+* [bioPIXIE](http://pixie.princeton.edu/pixie/) -- an early gene recommender system for yeast  
+* [mouseNET](http://mousenet.princeton.edu/) -- gene recommender for mouse  
+* [FunctionalNet](http://www.functionalnet.org/) -- composite functional networks for work, yeast, mouse and A thaliana  
+* [FuncBase](http://func.mshri.on.ca/) -- a compiled database of gene functional predictions using supervised learning on Gene Ontology categories  
 
 <hr>
 ### Integrated Assignment - Day 6
@@ -677,13 +679,13 @@ iRefWeb/iRefIndex [21](http://wodaklab.org/iRefWeb/) (Protein interactions)
 
 * First step is to update your Reactome FI to an earlier fully functional version: reactomeFI-4.0.1
 
-* [Zip Folder containing reactomeFI-app-4.0.1-beta.jar](Media:_Reactome_FI-4.0.1.zip "wikilink")
+* [Zip Folder containing reactomeFI-app-4.0.1-beta.jar](https://github.com/bioinformatics-ca/2015_workshops/raw/master/HTBio/Reactome_FI-4.0.1.zip)
 
-[HT-Biology2015\_Day5\_IntegratedAssignment.pdf](Media:_HT-Biology2015_Day6_IntegratedAssignment.pdf "wikilink")
-[HT-Biology2015\_Day5\_IntegratedAssignmentAnswers.pdf](Media:_HT-Biology2015_Day6_IntegratedAssignmentAnswers.pdf "wikilink")
+[HT-Biology2015\_Day5\_IntegratedAssignment.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_part2_IntegratedAssignment.pdf)
+[HT-Biology2015\_Day5\_IntegratedAssignmentAnswers.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/Pathways2015_part2_IntegratedAssignmentAnswers.pdf)
 
 **Input Data sets:**
-*  [ STAD\_MutSig.txt](Media:STAD_MutSig.txt "wikilink")
+*  [STAD\_MutSig.txt](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/STAD_MutSig.txt) (named GastricCancer\_mutsig.txt in the instructions)
 
 <hr>
 Day 7
@@ -702,9 +704,9 @@ Day 7
 
 **Lab Practical:**
 
-[HT-Biology2015\_Module17\_Lab.pdf](Media:HT-Biology2015_Module17_Lab.pdf "wikilink") [HT-Biology2015\_Module17\_Lab\_Addenda.pdf](Media:HT-Biology2015_Module17_Lab_Addenda.pdf "wikilink")
+[HT-Biology2015\_Module17\_Lab.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/HT-Biology2015_Module17_Lab.pdf) [HT-Biology2015\_Module17\_Lab\_Addenda.pdf](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/HT-Biology2015_Module17_Lab_Addenda.pdf)
 
--   Nature Protocols paper by Ma, Bailey, and Noble: [Nprot.2014.083.pdf](Media:Nprot.2014.083.pdf "wikilink")
+-  [Nature Protocols paper by Ma, Bailey, and Noble:](http://www.nature.com/nprot/journal/v9/n6/full/nprot.2014.083.html)
 
 **Links:**
 
@@ -717,13 +719,7 @@ Day 7
 
 * A549 c-Myc
 
--   -   [WgEncodeSydhTfbsA549CmycIggrabPk.narrowPeak.gz narrowPeak file](Media:WgEncodeSydhTfbsA549CmycIggrabPk.narrowPeak.gz "wikilink")
-    -   [MEME-ChIP report on A549 c-Myc](http://meme-suite.org/opal-jobs/appMEMECHIP_4.10.114306059944601516578367/meme-chip.html)
--   Unknown factor X
-    -   [MEME-ChIP report on unknown factor X](http://meme-suite.org/opal-jobs/appMEMECHIP_4.10.114306204728401779362043/meme-chip.html)
-    -   [FIMO report on unknown factor X](http://meme-suite.org//info/status?service=FIMO&id=appFIMO_4.10.114306532999031201773201)
-
-The above results should work for only a couple of days after the workshop. Archived results are in ![](AppMEMECHIP_4.10.114306204728401779362043.tar.gz "fig:AppMEMECHIP_4.10.114306204728401779362043.tar.gz").
+The results provided during the workshop do not work outside the workshop. Archived results are in [AppMEMECHIP_4.10.114306204728401779362043.tar.gz](https://github.com/bioinformatics-ca/2015_workshops/raw/master/pathways/File-AppMEMECHIP_4.10.114306204728401779362043.tar.gz).
 
 Tips, tricks, and resources
 ---------------------------
@@ -747,13 +743,15 @@ Tips, tricks, and resources
 * [Module 6 (HT-seq) result](http://www.hpc4health.ca/sites/default/files/cbw/2015/HT_data/module6_result.tar.gz)
 * [Module 8-11 (RNA-seq) result](http://www.hpc4health.ca/sites/default/files/cbw/2015/RNA_data/rnaseq_result.tar.gz)
 
-### Tools with installation instruction in our Amazon server
 
-[Tools Used in Our Workshops](Tools_Used_in_Our_Workshops "wikilink")
+### Tools with installation instructions on our Amazon server
+
+Instructions for installing the tools used in the workshops can be found [here](http://bioinformatics-ca.github.io/install_tools_2016/).
+
 
 ### Launching CBW AMI
 
-[Steps to launch CBW public AMI](Launching_CBW_AMI "wikilink")
+[Steps to launch CBW public AMI](https://bioinformatics-ca.github.io/bioinformatics_for_cancer_genomics_AMI_2015/)
 
 **AMI ID**: ami-b9a253d2
 **AMI Name**: CBW workshops 2015
